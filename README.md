@@ -1,8 +1,8 @@
-# Inicializar proyecto desde 0 usando vite
+# Inicializar proyecto desde 0 usando Vite
 ### npm create vite
 Una vez hecho esto inicializa el proyecto, tienes que establecer el nombre del proyecto
 luego del despliegue de proyectos escoge Vainilla. y luego despliega TypeScript y Javascript, Escojemos Javascript
-# Instalar pluguin para transpilar nuestro código
+# Instalar plugin para transpilar nuestro código
 npm i @vitejs/plugin-react -E , El -E es para que tenga la versión exacta
 # Instalar react react-dom
 npm i react react-dom -E
@@ -32,9 +32,7 @@ import App from "./src/App"
 const root = createRoot(document.getElementById('app'))
 root.render(<App/>)
 
-# Configurar eslinter para buen syntax de escritura 
+# Configurar ESLint para una buena sintaxis de escritura 
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
   }
-
-
