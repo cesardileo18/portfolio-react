@@ -1,0 +1,54 @@
+[
+    {
+      "nombre":"ReactJs",
+      "logo": "../../public/img/skills/reactJs.svg"
+    },
+    {
+      "nombre":"Docker",
+      "logo": "../../public/img/skills/docker.svg"
+    },
+    {
+      "nombre":".NetCore",
+      "logo": "../../public/img/skills/net-core.svg"
+    },
+    {
+      "nombre":"NodeJs",
+      "logo": "../../public/img/skills/nodeJs.svg"
+    },
+    {
+      "nombre":"Javascript",
+      "logo": "../../public/img/skills/javascript.svg"
+    },
+    {
+      "nombre":"MongoDb",
+      "logo": "../../public/img/skills/mongodb.svg"
+    },
+    {
+      "nombre":"MySql",
+      "logo": "../../public/img/skills/mysql.svg"
+    },
+    {
+      "nombre":"QlikSense",
+      "logo": "../../public/img/skills/qlikview.svg"
+    },
+    {
+      "nombre":"Bootstrap",
+      "logo": "../../public/img/skills/bootstrap.svg"
+    },
+    {
+      "nombre":"Figma",
+      "logo": "../../public/img/skills/figma.svg"
+    },
+    {
+      "nombre":"Git",
+      "logo": "../../public/img/skills/git.svg"
+    },
+    {
+      "nombre":"Html",
+      "logo": "../../public/img/skills/html.svg"
+    },
+    {
+      "nombre":"Sass",
+      "logo": "../../public/img/skills/sass.svg"
+    }
+  ]
