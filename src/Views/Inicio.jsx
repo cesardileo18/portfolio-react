@@ -3,7 +3,7 @@ import ParticlesBackground from "../Components/ParticlesBackground";
 const Inicio = () => {
     return (
         <div className="inicioPage">
-            {/* <ParticlesBackground /> */}
+            <ParticlesBackground />
             <div className="inicio-content">
                 <header className="inicio p-3">
                     <h1 className="inicio__header__h1">Cesar Acacio Di Leonardo</h1>

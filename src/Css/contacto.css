@@ -1,0 +1,85 @@
+.button {
+    transition: transform 0.2s, opacity 0.2s;
+}
+.contain-form{
+    min-height: calc(100vh - 70px);
+}
+.button.pressed {
+    transform: scale(0.9);
+    opacity: 0.7;
+    border: none;
+    font-size: 30px;
+    background: none;
+    color: white;
+
+}
+.contain__iconContact{
+    width: 50px;
+    height: 50px;
+    background: rgb(13, 13, 13);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.initialBtn {
+    animation: subirBajar 1.6s infinite alternate;
+    border: none;
+    font-size: 30px;
+    background: none;
+    color: white;
+
+}
+
+.cotainButton {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn__Contact {
+    border: none;
+    color: white;
+    font-size: 30px;
+    background: none;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: calc(60vh - 50px);
+}
+.alert {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+@keyframes subirBajar {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
