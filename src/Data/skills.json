@@ -1,54 +1,54 @@
 [
     {
       "nombre":"ReactJs",
-      "logo": "../../public/img/skills/reactJs.svg"
+      "logo": "/img/skills/reactJs.svg"
     },
     {
       "nombre":"Docker",
-      "logo": "../../public/img/skills/docker.svg"
+      "logo": "/img/skills/docker.svg"
     },
     {
       "nombre":".NetCore",
-      "logo": "../../public/img/skills/net-core.svg"
+      "logo": "/img/skills/net-core.svg"
     },
     {
       "nombre":"NodeJs",
-      "logo": "../../public/img/skills/nodeJs.svg"
+      "logo": "/img/skills/nodeJs.svg"
     },
     {
       "nombre":"Javascript",
-      "logo": "../../public/img/skills/javascript.svg"
+      "logo": "/img/skills/javascript.svg"
     },
     {
       "nombre":"MongoDb",
-      "logo": "../../public/img/skills/mongodb.svg"
+      "logo": "/img/skills/mongodb.svg"
     },
     {
       "nombre":"MySql",
-      "logo": "../../public/img/skills/mysql.svg"
+      "logo": "/img/skills/mysql.svg"
     },
     {
       "nombre":"QlikSense",
-      "logo": "../../public/img/skills/qlikview.svg"
+      "logo": "/img/skills/qlikview.svg"
     },
     {
       "nombre":"Bootstrap",
-      "logo": "../../public/img/skills/bootstrap.svg"
+      "logo": "/img/skills/bootstrap.svg"
     },
     {
       "nombre":"Figma",
-      "logo": "../../public/img/skills/figma.svg"
+      "logo": "/img/skills/figma.svg"
     },
     {
       "nombre":"Git",
-      "logo": "../../public/img/skills/git.svg"
+      "logo": "/img/skills/git.svg"
     },
     {
       "nombre":"Html",
-      "logo": "../../public/img/skills/html.svg"
+      "logo": "/img/skills/html.svg"
     },
     {
       "nombre":"Sass",
-      "logo": "../../public/img/skills/sass.svg"
+      "logo": "/img/skills/sass.svg"
     }
   ]

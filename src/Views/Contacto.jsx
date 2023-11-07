@@ -20,8 +20,8 @@ const Contacto = () => {
     };
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // Aquí debes enviar los datos al backend
-        const response = await fetch('http://localhost:8080/api/enviar-correo', {
+        // Aquí debes enviar los datos al backend   https://backend-portfolio-c30x.onrender.com/
+        const response = await fetch('https://backend-portfolio-c30x.onrender.com/api/enviar-correo', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -29,18 +29,25 @@ const Contacto = () => {
             body: JSON.stringify({ remitente: email, asunto: subject, mensaje: message }),
         });
         try {
+            console.log('response', response)
+            if (response.status === 200) {
                 setEmail('');
                 setSubject('');
                 setMessage('');
                 setAlertMessage('Mensaje enviado correctamente');
                 setShowAlert(true);
+                setTimeout(() => {
+                    setShowAlert(false);
+                }, 3000); // 3000 milisegundos (3 segundos)
 
-                // Configura un temporizador para ocultar la alerta después de X segundos
-                // setTimeout(() => {
-                //     setShowAlert(false);
-                // }, 3000); // 3000 milisegundos (3 segundos)
-         
-    
+            } else {
+                setAlertMessage('Hubo un error al enviar el correo');
+                setShowAlert(true);
+                setTimeout(() => {
+                    setShowAlert(false);
+                }, 3000); // 3000 milisegundos (3 segundos)
+            }
+
         } catch (error) {
             console.log('error', error)
             setAlertMessage('Hubo un error al enviar el correo');

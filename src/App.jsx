@@ -5,6 +5,7 @@ import Skills from "./Views/Skills";
 import "./Css/app.css"
 import ExperienciaLaboral from "./Views/ExperienciaLaboral";
 import Contacto from "./Views/Contacto";
+import Error from "./Views/Error";
 import { Routes, Route } from "react-router-dom";
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/expirence" element={<ExperienciaLaboral />} />
                 <Route path="/skills" element={<Skills />} />
                 <Route path="/contact" element={<Contacto />} />
+                <Route path="*" element={<Error />} />
             </Routes>
             <Footer/>
         </main>

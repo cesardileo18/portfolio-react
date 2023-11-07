@@ -45,3 +45,13 @@ h5{
 .container-fluid{
   min-height: calc(100vh - 60px);
 }
+.error{
+  min-height: calc(100vh - 65px);
+}
+.contain-error{
+  min-height: calc(100vh - 65px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
