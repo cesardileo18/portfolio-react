@@ -28,21 +28,25 @@ const Contacto = () => {
             },
             body: JSON.stringify({ remitente: email, asunto: subject, mensaje: message }),
         });
-        if (response.ok) {
-            setEmail('');
-            setSubject('');
-            setMessage('');
-            setAlertMessage('Mensaje enviado correctamente');
-            setShowAlert(true);
+        try {
+                setEmail('');
+                setSubject('');
+                setMessage('');
+                setAlertMessage('Mensaje enviado correctamente');
+                setShowAlert(true);
 
-            // Configura un temporizador para ocultar la alerta después de X segundos
-            setTimeout(() => {
-                setShowAlert(false);
-            }, 3000); // 3000 milisegundos (3 segundos)
-        } else {
+                // Configura un temporizador para ocultar la alerta después de X segundos
+                // setTimeout(() => {
+                //     setShowAlert(false);
+                // }, 3000); // 3000 milisegundos (3 segundos)
+         
+    
+        } catch (error) {
+            console.log('error', error)
             setAlertMessage('Hubo un error al enviar el correo');
             setShowAlert(true);
         }
+
     };
     const buttonClass = `pressed ${pressed ? 'button' : 'initialBtn'}`;
     return (
