@@ -6,7 +6,7 @@ import "./Css/app.css"
 import ExperienciaLaboral from "./Views/ExperienciaLaboral";
 import Contacto from "./Views/Contacto";
 import Error from "./Views/Error";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Router } from "react-router-dom";
 const App = () => {
     return (
         <main className="app">
@@ -19,7 +19,7 @@ const App = () => {
                 <Route path="/contact" element={<Contacto />} />
                 <Route path="*" element={<Error />} />
             </Routes>
-            <Footer/>
+            <Footer />
         </main>
     );
 }

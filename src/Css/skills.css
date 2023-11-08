@@ -7,6 +7,9 @@
     max-width: 50px;
     width: 100%;
 }
+.contenerdor-cards{
+    min-height: calc(100vh - 50px);
+}
 .card-text.skill{
     color: white;
     font-weight: 700;
@@ -20,15 +23,11 @@
     transform:  scale(1.1);
 }
 .container-fluid.skills{
-    min-height: calc(100vh - 63px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    min-height: calc(100vh - 50px);
 }
-@media screen and (max-width: 795px) {
+/* Aplicar margen solo en pantallas con un ancho máximo de 600px */
+@media (max-width: 574px) {
     .contenerdor-cards {
-        max-height: 200px;
-        /* Ajusta la altura máxima según tus necesidades     */
-        overflow-y: auto;
+      margin-bottom: 20px;
     }
-}
+  }

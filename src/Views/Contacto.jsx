@@ -20,16 +20,17 @@ const Contacto = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         // Aquí debes enviar los datos al backend   https://backend-portfolio-c30x.onrender.com/
-        const response = await fetch('https://backend-portfolio-c30x.onrender.com/api/enviar-correo', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({ remitente: email, asunto: subject, mensaje: message }),
-        });
+    // https://backend-portfolio-c30x.onrender.com
         try {
-            console.log('response', response)
-            if (response.status === 200) {
+            const response = await fetch('https://backend-portfolio-c30x.onrender.com/api/enviar-correo', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ remitente: email, asunto: subject, mensaje: message }),
+            });
+            if (response.ok) {
+                // El estado 200 indica que la respuesta es exitosa
                 setEmail('');
                 setSubject('');
                 setMessage('');
@@ -38,21 +39,15 @@ const Contacto = () => {
                 setTimeout(() => {
                     setShowAlert(false);
                 }, 3000); // 3000 milisegundos (3 segundos)
-
             } else {
-                setAlertMessage('Hubo un error al enviar el correo');
-                setShowAlert(true);
-                setTimeout(() => {
-                    setShowAlert(false);
-                }, 3000); // 3000 milisegundos (3 segundos)
+                // La respuesta indica un error (por ejemplo, un estado 404, 500, etc.)
+                throw new Error('Hubo un error al enviar el correo');
             }
-
         } catch (error) {
-            console.log('error', error)
+            console.error('error', error);
             setAlertMessage('Hubo un error al enviar el correo');
             setShowAlert(true);
         }
-
     };
     const buttonClass = `pressed ${pressed ? 'button' : 'initialBtn'}`;
     return (
@@ -60,14 +55,18 @@ const Contacto = () => {
             <h1 className='text-center'>Página de Contacto</h1>
             <div className="cotainButton mt-5">
                 <div className='contain__iconContact'>
-                    <button className="btn__Contact">
-                        <FontAwesomeIcon icon={faGithub} />
-                    </button>
+                    <a href="https://github.com/cesardileo18" target="_blank" rel="noopener noreferrer">
+                        <button className="btn__Contact">
+                            <FontAwesomeIcon icon={faGithub} />
+                        </button>
+                    </a>
                 </div>
                 <div className='contain__iconContact'>
-                    <button className="btn__Contact">
-                        <FontAwesomeIcon icon={faLinkedinIn} />
-                    </button>
+                    <a href="https://www.linkedin.com/in/cesar-orlando-acacio-di-leonardo-12b01a1b5" target="_blank" rel="noopener noreferrer">
+                        <button className="btn__Contact">
+                            <FontAwesomeIcon icon={faLinkedinIn} />
+                        </button>
+                    </a>
                 </div>
                 <div className='contain__iconContact'>
                     <button className={buttonClass} onClick={toggleFormulario}>

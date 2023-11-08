@@ -9,7 +9,7 @@ const Skills = () => {
             <ParticlesBackgroundSnow/>
             <h2 className='pt-5 text-center skills__h2'>Mis habilidades</h2>
             <div className="skills-content">
-                <div className='contenerdor-cards d-flex '>
+                <div className='contenerdor-cards d-flex align-content-around'>
                     {/* <div className="contenerdor-cards d-flex flex-sm-column"> */}
                     <div className="d-flex justify-content-center align-items-center flex-wrap flex-sm-wrap ">
                         {skills.map((skill, index) => (

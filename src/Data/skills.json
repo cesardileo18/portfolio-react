@@ -50,5 +50,9 @@
     {
       "nombre":"Sass",
       "logo": "/img/skills/sass.svg"
+    },
+    {
+      "nombre":"Adobe Illustrator",
+      "logo": "/img/skills/Adobe_Illustrator.png"
     }
   ]
