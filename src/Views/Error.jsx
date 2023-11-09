@@ -6,7 +6,7 @@ const Error = () => {
             <p className="error-message">Parece que has llegado a una página que no existe.</p>
             <img
                 className="error-image"
-                src="../../public/img/error404/error.png" // Reemplaza con tu propia imagen
+                src="/img/error404/error.png" // Reemplaza con tu propia imagen
                 alt="Error 404"
             />
             <p className="error-back">Vuelve a la <a href="/">página principal</a></p>
