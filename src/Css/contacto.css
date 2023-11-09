@@ -2,7 +2,8 @@
     transition: transform 0.2s, opacity 0.2s;
 }
 .contain-form{
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 63px);
+    background-color: whitesmoke;
 }
 .button.pressed {
     transform: scale(0.9);

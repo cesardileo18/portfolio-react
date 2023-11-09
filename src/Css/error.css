@@ -1,0 +1,38 @@
+.contain-error {
+    min-height: calc(100vh - 55px) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: whitesmoke;
+    align-items: center !important;
+}
+
+.error-heading {
+    color: #ff6347;
+    /* Color rojo oscuro, puedes ajustarlo según tu paleta de colores */
+}
+
+.error-message {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.error-image {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.error-back {
+    color: #007bff;
+    /* Color azul, puedes ajustarlo según tu paleta de colores */
+    font-weight: bold;
+}
+
+.error-back a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.error-back a:hover {
+    text-decoration: underline;
+}

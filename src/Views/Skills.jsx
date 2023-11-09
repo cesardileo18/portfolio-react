@@ -5,9 +5,9 @@ import "../Css/skills.css"
 import ParticlesBackgroundSnow from '../Components/ParticlesBackgroundSnow';
 const Skills = () => {
     return (
-        <div className="container-fluid skills">
+        <div className="container-fluid skills p-3">
             <ParticlesBackgroundSnow/>
-            <h2 className='pt-5 text-center skills__h2'>Mis habilidades</h2>
+            <h2 className='text-center skills__h2'>Mis habilidades</h2>
             <div className="skills-content">
                 <div className='contenerdor-cards d-flex align-content-around'>
                     {/* <div className="contenerdor-cards d-flex flex-sm-column"> */}

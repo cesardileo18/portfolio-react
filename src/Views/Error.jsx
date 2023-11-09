@@ -1,9 +1,15 @@
+import "../Css/error.css"
 const Error = () => {
     return (
-        <div className="error">
-            <div className="contain-error">
-                <h1>Error</h1>
-            </div>
+        <div className="contain-error">
+            <h1 className="error-heading">Oops! Algo salió mal...</h1>
+            <p className="error-message">Parece que has llegado a una página que no existe.</p>
+            <img
+                className="error-image"
+                src="../../public/img/error404/error.png" // Reemplaza con tu propia imagen
+                alt="Error 404"
+            />
+            <p className="error-back">Vuelve a la <a href="/">página principal</a></p>
         </div>
     );
 }

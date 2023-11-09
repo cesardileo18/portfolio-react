@@ -8,7 +8,7 @@
     width: 100%;
 }
 .contenerdor-cards{
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh - 142px);
 }
 .card-text.skill{
     color: white;
@@ -24,6 +24,7 @@
 }
 .container-fluid.skills{
     min-height: calc(100vh - 50px);
+    background-color: whitesmoke;
 }
 /* Aplicar margen solo en pantallas con un ancho máximo de 600px */
 @media (max-width: 574px) {

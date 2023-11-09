@@ -8,7 +8,7 @@ const particlesjsConfigSnow = {
       }
     },
     "color": {
-      "value": "#0000"
+      "value": "#d18d45"
     },
     "shape": {
       "type": "circle",
@@ -54,7 +54,7 @@ const particlesjsConfigSnow = {
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 3,
       "direction": "bottom",
       "random": false,
       "straight": false,

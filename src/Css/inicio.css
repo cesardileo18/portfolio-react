@@ -40,7 +40,9 @@ header.inicio {
     display: none;
     /* Elimina cualquier espacio vacío alrededor de la imagen */
 }
-
+.inicioPage{
+    background-color: whitesmoke;
+}
 .inicio__img {
     position: absolute;
     position: absolute;

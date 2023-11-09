@@ -10,6 +10,8 @@
 }
 .experiencia-container{
     background-color: whitesmoke;
+    min-height: calc(100vh - 45px);
+
 }
 .experiencia__texto{
     color: white;
