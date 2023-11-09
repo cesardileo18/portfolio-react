@@ -13,6 +13,7 @@ header.inicio {
 .inicio__header__h1 {
     color: white;
 }
+
 .inicio__img__cv {
     width: 100%;
     /* Asegura que la imagen sea responsive */
@@ -28,6 +29,13 @@ header.inicio {
     object-position: inherit;
 }
 
+.container-spinner-inicio {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .inicio__header__img__cv {
     width: 100%;
     /* Asegura que la imagen sea responsive */
@@ -40,9 +48,11 @@ header.inicio {
     display: none;
     /* Elimina cualquier espacio vacío alrededor de la imagen */
 }
-.inicioPage{
+
+.inicioPage {
     background-color: whitesmoke;
 }
+
 .inicio__img {
     position: absolute;
     position: absolute;
@@ -77,11 +87,19 @@ header.inicio {
     header.inicio {
         justify-content: space-evenly;
     }
-    .inicio__header__h1{
+
+    .inicio__header__h1 {
         font-size: 1.7rem !important;
     }
+
     header.inicio {
         max-height: 150px;
         height: 100%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .inicio__header__h1 {
+        text-align: center;
     }
 }

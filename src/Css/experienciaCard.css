@@ -6,12 +6,22 @@
 .experiencia-card {
     background-color: #222325ad;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s; /* Agregar una transición suave para animar el cambio */
+    transition: transform 0.2s; /* Agregar una transición suave para animar el cambio 
+    min-height: calc(100vh - 68px);
+    */ 
+}
+.experiencia-container-loading{
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .experiencia-container{
     background-color: whitesmoke;
     min-height: calc(100vh - 45px);
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .experiencia__texto{
     color: white;

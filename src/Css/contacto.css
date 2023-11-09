@@ -2,7 +2,7 @@
     transition: transform 0.2s, opacity 0.2s;
 }
 .contain-contact-spinner{
-    min-height: calc(100vh - 63px);
+    min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,48 +68,6 @@
     font-size: 30px;
     background: none;
 }
-
-/* .form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #f0f0f0; 
-    border-radius: 10px; 
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-} */
-/* .form {
-    position: relative;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-.form::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: linear-gradient(90deg, #DAA520, #000, #DAA520);
-    animation: moveLine 2s linear infinite;
-}
-
-@keyframes moveLine {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(200%);
-    }
-} */
 .form {
     position: relative;
     width: 100%;
@@ -149,8 +107,6 @@
         transform: translateX(100%);
     }
 }
-
-
 form.form-control{
     background-color: #f0f0f0; /* Color de fondo para el formulario */
     border-radius: 10px; /* Bordes redondeados para suavizar la apariencia */
@@ -169,7 +125,6 @@ form.form-control{
     justify-content: space-between;
     align-items: center;
   }
-  
   .close-button {
     background-color: transparent;
     border: none;

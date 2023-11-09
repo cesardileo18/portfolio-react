@@ -2,33 +2,47 @@
     position: relative;
     z-index: 1;
 }
+
 .skills-logo {
-    height: 50px;
+    height: 40px;
     max-width: 50px;
     width: 100%;
 }
-.contenerdor-cards{
+
+.contain-skill-spinner {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenerdor-cards {
     min-height: calc(100vh - 142px);
 }
-.card-text.skill{
+
+.card-text.skill {
     color: white;
     font-weight: 700;
 }
+
 .body-card-skill {
     background-color: #222325 !important;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s;
 }
+
 .body-card-skill:hover {
-    transform:  scale(1.1);
+    transform: scale(1.1);
 }
-.container-fluid.skills{
+
+.container-fluid.skills {
     min-height: calc(100vh - 50px);
     background-color: whitesmoke;
 }
+
 /* Aplicar margen solo en pantallas con un ancho máximo de 600px */
 @media (max-width: 574px) {
     .contenerdor-cards {
-      margin-bottom: 20px;
+        margin-bottom: 20px;
     }
-  }
+}

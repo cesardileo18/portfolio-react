@@ -26,8 +26,7 @@ const Contacto = () => {
         e.preventDefault();
         try {
             setShowSpinner(true)
-            // const response = await fetch('https://backend-portfolio-c30x.onrender.com/api/enviar-correo', {
-            const response = await fetch('http://localhost:8080/api/enviar-correo', {
+            const response = await fetch('https://backend-portfolio-c30x.onrender.com/api/enviar-correo', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -63,7 +62,6 @@ const Contacto = () => {
             setShowAlert(true);
         }
     };
-    // {showSpinner && <Spinner />}
     const buttonClass = `pressed ${pressed ? 'button' : 'initialBtn'}`;
     return (
         <div className='contain-contact-spinner'>
