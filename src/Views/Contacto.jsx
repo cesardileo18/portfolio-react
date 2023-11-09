@@ -108,7 +108,7 @@ const Contacto = () => {
                                     <span className="input-group-text" id="basic-addon1">
                                         <FontAwesomeIcon icon={faAt} />
                                     </span>
-                                    <input type="email" className='form-control' name={email} value={email} onChange={(e) => setEmail(e.target.value)} aria-describedby="basic-addon1" required />
+                                    <input type="email" className='form-control' name="email" value={email} onChange={(e) => setEmail(e.target.value)} aria-describedby="basic-addon1" required />
                                 </div>
                                 <label className='form-label'>Asunto:</label>
                                 <div className='input-group'>

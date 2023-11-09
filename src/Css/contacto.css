@@ -10,6 +10,7 @@
 .contain-form{
     min-height: calc(100vh - 63px);
     background-color: whitesmoke;
+    width: 100%;
 }
 .agradecimiento{
     min-height: calc(80vh - 240px);
