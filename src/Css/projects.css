@@ -1,0 +1,24 @@
+.main__projects{
+    min-height: calc(100vh - 100px);
+}
+.main__projectsLogin{
+    min-height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects__contenedor__h1{
+    display: flex;
+    justify-content: center;
+}
+.projects__img__paginaEnConstruccion{
+    max-width: 400px;
+    width: 100%;
+}
+.projects__paginaEnConstruccion{
+    min-height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
