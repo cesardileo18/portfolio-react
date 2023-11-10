@@ -91,7 +91,12 @@
     background: linear-gradient(90deg, #DAA520, #DAA520, #000, #000, #DAA520); /* Naranja tostado y negro */
     animation: moveLines 2s linear infinite;
 }
-
+.contain__form__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 250px); 
+}
 .form::before {
     top: 0;
 }

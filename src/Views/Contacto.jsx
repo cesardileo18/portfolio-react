@@ -100,29 +100,31 @@ const Contacto = () => {
                         </div>
                     )}
                     {formularioVisible ? (
-                        <div className='form mt-4'>
-                            <h2 className='mt-3 text-center'>Enviar Correo Electrónico</h2>
-                            <form className='form-control mt-3' onSubmit={handleSubmit}>
-                                <label className='form-label'>Correo Electrónico:</label>
-                                <div className='input-group'>
-                                    <span className="input-group-text" id="basic-addon1">
-                                        <FontAwesomeIcon icon={faAt} />
-                                    </span>
-                                    <input type="email" className='form-control' name="email" value={email} onChange={(e) => setEmail(e.target.value)} aria-describedby="basic-addon1" required />
-                                </div>
-                                <label className='form-label'>Asunto:</label>
-                                <div className='input-group'>
-                                    <span className="input-group-text" id="basic-addon2">
-                                        <FontAwesomeIcon icon={faComment} />
-                                    </span>
-                                    <input type="text" className='form-control' name={subject} value={subject} onChange={(e) => setSubject(e.target.value)} aria-describedby="basic-addon2" required />
-                                </div>
-                                <label className='form-label'>Mensaje:</label>
-                                <textarea value={message} className='form-control' name={message} onChange={(e) => setMessage(e.target.value)} required />
-                                <div className='containBtn-submitEmail d-flex justify-content-center'>
-                                    <button type="submit" className='btn btn-secondary my-3'>Enviar Correo</button>
-                                </div>
-                            </form>
+                        <div className='contain__form__contact'>
+                            <div className='form mt-4'>
+                                <h2 className='mt-3 text-center'>Enviar Correo Electrónico</h2>
+                                <form className='form-control mt-3' onSubmit={handleSubmit}>
+                                    <label className='form-label'>Correo Electrónico:</label>
+                                    <div className='input-group'>
+                                        <span className="input-group-text" id="basic-addon1">
+                                            <FontAwesomeIcon icon={faAt} />
+                                        </span>
+                                        <input type="email" className='form-control' name="email" value={email} onChange={(e) => setEmail(e.target.value)} aria-describedby="basic-addon1" required />
+                                    </div>
+                                    <label className='form-label'>Asunto:</label>
+                                    <div className='input-group'>
+                                        <span className="input-group-text" id="basic-addon2">
+                                            <FontAwesomeIcon icon={faComment} />
+                                        </span>
+                                        <input type="text" className='form-control' name={subject} value={subject} onChange={(e) => setSubject(e.target.value)} aria-describedby="basic-addon2" required />
+                                    </div>
+                                    <label className='form-label'>Mensaje:</label>
+                                    <textarea value={message} className='form-control' name={message} onChange={(e) => setMessage(e.target.value)} required />
+                                    <div className='containBtn-submitEmail d-flex justify-content-center'>
+                                        <button type="submit" className='btn btn-secondary my-3'>Enviar Correo</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     ) : (
                         <div className='agradecimiento mt-5 p-3'>
