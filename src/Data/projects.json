@@ -5,7 +5,6 @@
         "description":"E-Commerce para el rubro de pastelería y repostería. Desarrollado con HTML, un toque de JavaScript y utilizando Sass para el diseño junto con el marco de trabajo Bootstrap, experiencia visual atractiva y una interfaz de usuario amigable. Este proyecto es 100% responsive, adaptándose a cualquier dispositivo. Para mejorar el análisis de nuestro sitio, he implementado Google Analytics como parte estrategia en SEO. El código está estructurado de manera semánticamente correcta, lo que contribuye a un mejor posicionamiento en los motores de búsqueda. El proyecto se encuentra desplegado en el servidor de GitHub",
         "demo":"https://cesardileo18.github.io/EpikusCake/",
         "repository":"https://github.com/cesardileo18/EpikusCake",
-        "img":"/img/logos/logo.png"
-        
+        "img":"/img/projects/epikusCakeJavasCript.png"
     }
 ]

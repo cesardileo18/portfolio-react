@@ -1,24 +1,106 @@
-.main__projects{
-    min-height: calc(100vh - 100px);
+
+.card-img-top-project {
+    max-width: 100%;
+    height: auto;
 }
-.main__projectsLogin{
-    min-height: calc(100vh - 60px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.card-type-badge-project {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-radius: 0.25rem;
 }
-.projects__contenedor__h1{
-    display: flex;
-    justify-content: center;
-}
-.projects__img__paginaEnConstruccion{
-    max-width: 400px;
-    width: 100%;
-}
-.projects__paginaEnConstruccion{
+
+.main__projects {
     min-height: calc(100vh - 60px);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.main__projectsLogin {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects__contenedor__h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.projects__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-project {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    background-color: #858b8b6e !important;
+    padding: 20px;
+}
+.modal-backdrop {
+    --bs-backdrop-bg: #a29797 !important;
+    top: 80px !important;
+    left: 50px !important;
+    width: 82vw !important;
+    height: 60vh !important;
+}
+.card__text__project{
+    font-size: 0.6rem !important;
+}
+.card-img-top-modal{
+    max-width: 200px;
+    width: 100%;
+}
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+.container-project{
+    background-color: whitesmoke !important;
+}
+.modal-content {
+    background-color: #565353 !important;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    width: 100%;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-close {
+    cursor: pointer;
+    background-color: white !important;
+    padding: 5px !important;
+}
+
+@media (max-width: 992px) {
+    .card-project {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .card-project {
+        flex: 0 0 calc(100% - 20px);
+    }
 }

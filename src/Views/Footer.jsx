@@ -3,9 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouseChimney, faLaptopCode, faBriefcase, faEnvelope, faLaptop, faCode } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 const Footer = () => {
-    const inicio = () => {
-        window.location.href = "https://www.google.com/"
-    }
+
     return (
         <footer>
             <section className="footer">
