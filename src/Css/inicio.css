@@ -35,7 +35,7 @@ header.inicio {
     transform: translate(-50%, -50%);
 }
 .inicioPage{
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 60px);
     display: flex;
 }
 .inicio__header__img__cv {
