@@ -28,14 +28,16 @@ header.inicio {
     object-fit: cover;
     object-position: inherit;
 }
-
-.container-spinner-inicio {
-    min-height: calc(100vh - 60px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.spinner-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
-
+.inicioPage{
+    min-height: calc(100vh - 70px);
+    display: flex;
+}
 .inicio__header__img__cv {
     width: 100%;
     /* Asegura que la imagen sea responsive */

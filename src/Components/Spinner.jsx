@@ -11,6 +11,7 @@ const Spinner = () => {
             wrapperClass="dna-wrapper"
             ballColors={['#F4442E', '#F4442E', '#F4442E']}
             backgroundColor="#e0e0e0"
+            
         />
     );
 }
