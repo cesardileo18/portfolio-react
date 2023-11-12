@@ -1,11 +1,10 @@
-
 .card-img-top-project {
     max-width: 100%;
     height: auto;
 }
 
 .card-type-badge-project {
-    background-color: rgb(10, 10, 10);
+    background-color:rgb(10 10 10 / 69%);
     color: white;
     border-radius: 0.25rem;
 }
@@ -37,13 +36,23 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
+.card-title{
+    color: white !important;
+    font-weight: 700;
+}
+.modal-title{
+     color: white !important;
+    font-weight: 700;   
+}
 .card-project {
     flex: 0 0 calc(33.333% - 20px);
     margin-bottom: 20px;
-    background-color: #858b8b6e !important;
     padding: 20px;
+    max-height: 370px;
+    height: 100%;
+    background: #9a968994 !important;
 }
+
 .modal-backdrop {
     --bs-backdrop-bg: #a29797 !important;
     top: 80px !important;
@@ -51,13 +60,16 @@
     width: 82vw !important;
     height: 60vh !important;
 }
-.card__text__project{
+
+.card__text__project {
     font-size: 0.6rem !important;
 }
-.card-img-top-modal{
+
+.card-img-top-modal {
     max-width: 200px;
     width: 100%;
 }
+
 .modal-container {
     position: fixed;
     top: 0;
@@ -69,16 +81,21 @@
     justify-content: center;
     z-index: 1000;
 }
-.container-project{
+
+.container-project {
     background-color: whitesmoke !important;
 }
+
 .modal-content {
-    background-color: #565353 !important;
+    background-color: #777b81 !important;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 600px;
+    max-width: 500px;
+    max-height: 500px;
+    height: 100%;
     width: 100%;
+    overflow-y: auto;
 }
 
 .modal-header {
@@ -101,6 +118,6 @@
 
 @media (max-width: 768px) {
     .card-project {
-        flex: 0 0 calc(100% - 20px);
+        flex: 0 0 calc(70% - 20px);
     }
 }

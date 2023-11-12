@@ -2,9 +2,35 @@
     {
         "name": "E-Commerce | Epikus Cake",
         "projetType":"FrondEnd",
-        "description":"E-Commerce para el rubro de pastelería y repostería. Desarrollado con HTML, un toque de JavaScript y utilizando Sass para el diseño junto con el marco de trabajo Bootstrap, experiencia visual atractiva y una interfaz de usuario amigable. Este proyecto es 100% responsive, adaptándose a cualquier dispositivo. Para mejorar el análisis de nuestro sitio, he implementado Google Analytics como parte estrategia en SEO. El código está estructurado de manera semánticamente correcta, lo que contribuye a un mejor posicionamiento en los motores de búsqueda. El proyecto se encuentra desplegado en el servidor de GitHub",
+        "description":"E-Commerce de pastelería y repostería, desarrollado con HTML, JavaScript, y Sass para el diseño, utilizando el marco de trabajo Bootstrap. Ofrece una experiencia visual atractiva y una interfaz de usuario amigable. Totalmente responsive y compatible con cualquier dispositivo. Implementa Google Analytics para mejorar el análisis del sitio y optimizar la estrategia de SEO. El código está estructurado de manera semánticamente correcta, mejorando el posicionamiento en motores de búsqueda. Desplegado en el servidor de GitHub.",
         "demo":"https://cesardileo18.github.io/EpikusCake/",
         "repository":"https://github.com/cesardileo18/EpikusCake",
         "img":"/img/projects/epikusCakeJavasCript.png"
+    },
+    {
+        "name": "Juego Dinosaurio",
+        "projetType":"FrondEnd",
+        "description":"Desarrollado con JavaScript, desafía tus habilidades mientras controlas a un dinosaurio que corre sin parar. Salta para evitar obstáculos y acumula puntos en un entorno dinámico. Características clave incluyen controles simples con clic o barra espaciadora para saltar, escenarios cambiantes que te permiten experimentar diferentes momentos del día, obstáculos desafiantes como cactus, y un sistema de puntaje para que puedas superar tus récords.Desplegado en el servidor de GitHub.",
+        "demo":"https://cesardileo18.github.io/juegoDinosaurio/",
+        "repository":"https://github.com/cesardileo18/juegoDinosaurio",
+        "img":"/img/projects/juego.png"
+    },
+    {
+        "name": "E-Commerce",
+        "projetType":"FrondEnd | BackEnd",
+        "description":"E-Commerce de pastelería y repostería desarrollado con Node.js (BackEnd) y Handlebars (FrontEnd). Aunque carece de pasarela de pago, incorpora funcionalidades clave como gestión de productos y usuarios con webSocket para actualizaciones automáticas. El registro de usuarios utiliza Passport, implementando hash con bcrypt en MongoDB Atlas. Incluye lógica para reenvío de contraseñas y utiliza variables de entorno para mayor seguridad. Actualmente, el proyecto está desplegado en los servidores de Render y está adaptado para ser desplegado con Docker, siguiendo una metodología de carpetas: models, services, controller, routes, app.js.",
+        "demo":"https://e-commerce-epikus-cake.onrender.com",
+        "repository":"https://github.com/cesardileo18/EpikusCakeFinalProject",
+        "img":"/img/projects/epikusNode.png"
+    },
+    {
+        "name": "Gestor de Usuarios",
+        "projetType":"FrondEnd | BackEnd",
+        "description":"Este proyecto, desarrollado con JavaScript, permite realizar operaciones de alta, baja y modificación de usuarios. La aplicación se carga de manera completamente dinámica, utilizando el almacenamiento local (localStorage).",
+        "demo":"https://cesardileo18.github.io/abmJavascript/",
+        "repository":"https://github.com/cesardileo18/abmJavascript",
+        "img":"/img/projects/abmJs.png"
     }
+
+    
 ]

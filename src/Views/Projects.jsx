@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
                 <section className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 projects__cards">
                     {projects.map((project, index) => (
-                        <div key={index} className="col">
+                        <div key={index} className="col projects__Contain__cards">
                             <ProjectCard project={project} />
                         </div>
                     ))}
