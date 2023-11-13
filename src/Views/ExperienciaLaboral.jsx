@@ -3,8 +3,9 @@ import ExperienciaCard from '../Components/ExperienciaCard';
 import datosExperiencia from '../Data/experiencias.json';
 import "../Css/experienciaCard.css"
 import { useState, useEffect } from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Spinner from '../Components/Spinner';
+import { faBiking, faBridge, faBriefcase } from '@fortawesome/free-solid-svg-icons';
 
 const ExperienciaLaboral = () => {
   const [showSpinner, setShowSpinner] = useState(false);
@@ -20,7 +21,9 @@ const ExperienciaLaboral = () => {
         <Spinner />
       ) : (
         <div className="experiencia-container p-3">
-          <h2 className='text-center experiencia__laboral__h2'>Mi Experiencia Laboral</h2>
+          <div className="containerExperiencia d-flex align-items-center justify-content-center">
+          <FontAwesomeIcon icon={faBriefcase} className='mx-2 icon__expirence__logo'/><h2 className='text-center experiencia__laboral__h2'>Mi Experiencia Laboral</h2>
+          </div>
           <div className="experiencia-cards">
             {datosExperiencia.map((trabajo, index) => (
               <ExperienciaCard key={index} trabajo={trabajo} />

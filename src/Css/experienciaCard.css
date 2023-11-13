@@ -10,6 +10,9 @@
     min-height: calc(100vh - 68px);
     */ 
 }
+.icon__expirence__logo{
+    font-size: 2rem !important;
+}
 .experiencia-container-loading{
     min-height: calc(100vh - 60px);
     display: flex;
