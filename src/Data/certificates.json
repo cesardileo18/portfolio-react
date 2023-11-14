@@ -1,6 +1,82 @@
 [
     {
-        "name":"",
-        "image":""
+        "name":"Programación BackEnd",
+        "image":"/img/Certificates/NodeJs.png"
+    },
+    {
+        "name":"Inglés para desarrollo nivel elementary",
+        "image":"/img/Certificates/InglesElementary.png"
+    },
+    {
+        "name":"React Js",
+        "image":"/img/Certificates/ReactJsCoder.png"
+    },
+    {
+        "name":"JavaScript",
+        "image":"/img/Certificates/Javascript.png"
+    },
+    {
+        "name":"Web development",
+        "image":"/img/Certificates/DesarrolloWeb.png"
+    },
+    {
+        "name":"Programación Web.Net Core",
+        "image":"/img/Certificates/programacion web .net EducacionIt.PNG"
+    },
+    {
+        "name":"Introducción al Paradigma Objetos",
+        "image":"/img/Certificates/Introduccion al paradigma de objeto EducacionIt.PNG"
+    },
+    {
+        "name":"Introduccion Al Lenguaje de Programacion",
+        "image":"/img/Certificates/Introduccion al lenguaje de programacion.PNG"
+    },
+    {
+        "name":"JavaScript EducacionIT",
+        "image":"/img/Certificates/JavascriptEducacionIt.png"
+    },
+    {
+        "name":"React Js Avanzado EducacionIT",
+        "image":"/img/Certificates/react avanzado EducacionIt.PNG"
+    },
+    {
+        "name":"Web Api .net Core EducacionIt",
+        "image":"/img/Certificates/web api .net core EducacionIt.PNG"
+    },
+    {
+        "name":"React Js EducacionIt",
+        "image":"/img/Certificates/react basico EducacionIt.PNG"
+    },
+    {
+        "name":"Qlik Sense Diseñador",
+        "image":"/img/Certificates/qlikSense diseñador.PNG"
+    },
+    {
+        "name":"Qlik Sense Desarrollador",
+        "image":"/img/Certificates/qlikSense desarrollador.PNG"
+    },
+    {
+        "name":"React Js Firebase",
+        "image":"/img/Certificates/react firebase Udemy.jpg"
+    },
+    {
+        "name":"Php MySql",
+        "image":"/img/Certificates/php MySql Udemy.jpg"
+    },
+    {
+        "name":"Diseño Web Profesional",
+        "image":"/img/Certificates/diseño web profesional.jpg"
+    },
+    {
+        "name":"Reparación y Mantenimiento de Computadoras",
+        "image":"/img/Certificates/reparacion Pc.jpg"
+    },
+    {
+        "name":"Reparación y Mantenimiento de Notebooks",
+        "image":"/img/Certificates/reparacion notebook.jpg"
+    },
+    {
+        "name":"Programación Web Full Stack",
+        "image":"/img/Certificates/DepcSuite.PNG"
     }
 ]
