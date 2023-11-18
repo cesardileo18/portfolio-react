@@ -2,6 +2,8 @@ import "../Css/inicio.css"
 import ParticlesBackground from "../Components/ParticlesBackground";
 import { useState, useEffect } from 'react';
 import Spinner from '../Components/Spinner';
+import ScrollButton from '../Components/ScrollButton';
+
 const Inicio = () => {
     const [showSpinner, setShowSpinner] = useState(false);
     useEffect(() => {
@@ -41,6 +43,7 @@ const Inicio = () => {
                     </section>
                 </div>
             )}
+            <ScrollButton />
         </div>
 
     );

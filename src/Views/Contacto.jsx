@@ -4,6 +4,7 @@ import { faAt, faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Spinner from '../Components/Spinner';
 import '../Css/contacto.css';
+import ScrollButton from '../Components/ScrollButton';
 
 const Contacto = () => {
     const [formularioVisible, setFormularioVisible] = useState(false);
@@ -134,8 +135,8 @@ const Contacto = () => {
                     )}
                 </div>
             )}
+            <ScrollButton />
         </div>
-
     );
 }
 
