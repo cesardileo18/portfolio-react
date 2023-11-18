@@ -1,5 +1,5 @@
-.scrollButton{
-    position: fixed; 
+.scrollButton {
+    position: fixed;
     width: 100%;
     left: 96%;
     bottom: 30px;
@@ -7,6 +7,12 @@
     font-size: 2.5rem;
     z-index: 1;
     cursor: pointer;
-    color: #0c0c0cec ;
+    color: #0c0c0cec;
     opacity: 0.4;
+}
+
+@media screen and (max-width: 765px) {
+    .scrollButton {
+        left: 88%;
+    }
 }
