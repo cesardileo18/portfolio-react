@@ -13,6 +13,11 @@
 
 @media screen and (max-width: 765px) {
     .scrollButton {
-        left: 88%;
+        left: 88%!important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .scrollButton {
+        left: 83% !important;
     }
 }
