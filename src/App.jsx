@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "./Views/Footer";
 import Inicio from "./Views/Inicio";
 import Skills from "./Views/Skills";
@@ -8,7 +8,10 @@ import ExperienciaLaboral from "./Views/ExperienciaLaboral";
 import Contacto from "./Views/Contacto";
 import Error from "./Views/Error";
 import { Routes, Route } from "react-router-dom";
+
 const App = () => {
+
+    
     return (
         <main className="app">
             <Routes>

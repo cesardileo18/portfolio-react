@@ -1,10 +1,17 @@
 import React from 'react';
 import SkillsConfig from '../Components/SkillsConfig';
 import skills from '../Data/skills.json';
+import certificates from '../Data/certificates.json';
+import education from "../Data/educacion.json"
 import "../Css/skills.css"
 import ParticlesBackgroundSnow from '../Components/ParticlesBackgroundSnow';
 import { useState, useEffect } from 'react';
 import Spinner from '../Components/Spinner';
+import EducacionCard from '../Components/EducacionCard';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGraduationCap, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+import CertificatesCard from '../Components/CertificatesCard';
+import ScrollButton from '../Components/ScrollButton';
 const Skills = () => {
     const [showSpinner, setShowSpinner] = useState(false);
     useEffect(() => {
@@ -32,8 +39,34 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
+                    {/* Iria aca */}
+                    <div className="education-section">
+                        <div className="education-section-title d-flex align-items-center justify-content-center my-2">
+                            <FontAwesomeIcon icon={faUserGraduate} className='mx-2 education-section-title'/>  <h2>Mi Educación</h2>
+                        </div>
+                        <div className="row d-flex justify-content-evenly">
+                            {education.map((edu, index) => (
+                                <div className="col-lg-6 col-md-5 col-sm-12 col-12 mb-4" key={index}>
+                                    <EducacionCard education={edu} />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                    <div className="education-section">
+                        <div className="education-section-title d-flex align-items-center justify-content-center my-2">
+                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title'/><h2>Certificaciones</h2>
+                        </div>
+                        <div className="row">
+                            {certificates.map((certificate, index) => (
+                                <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-2" key={index}>
+                                    <CertificatesCard certificate={certificate} />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             )}
+            <ScrollButton/>
         </div>
     );
 }

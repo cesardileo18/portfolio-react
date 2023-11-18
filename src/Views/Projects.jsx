@@ -3,6 +3,8 @@ import { useState, useEffect, React } from 'react';
 import ProjectCard from "../Components/ProjectCard";
 import "../Css/projects.css"
 import Spinner from "../Components/Spinner";
+import ScrollButton from '../Components/ScrollButton';
+
 const Projects = () => {
     const [showSpinner, setShowSpinner] = useState(false);
     useEffect(() => {
@@ -35,6 +37,7 @@ const Projects = () => {
                 // </div>
 
             )}
+            <ScrollButton/>
         </section>
     );
 }

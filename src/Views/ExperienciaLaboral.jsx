@@ -5,7 +5,9 @@ import "../Css/experienciaCard.css"
 import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Spinner from '../Components/Spinner';
-import { faBiking, faBridge, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import ScrollButton from '../Components/ScrollButton';
+
 
 const ExperienciaLaboral = () => {
   const [showSpinner, setShowSpinner] = useState(false);
@@ -31,6 +33,7 @@ const ExperienciaLaboral = () => {
           </div>
         </div>
       )}
+      <ScrollButton/>
     </div>
   );
 };
