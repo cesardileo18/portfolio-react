@@ -2,7 +2,7 @@ import "../Css/experienciaCard.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 const ExperienciaCard = ({ trabajo }) => {
     return (
-        <div className="experiencia-card p-3 m-1 mt-3">
+        <div className="experiencia-card p-3">
             <div className="experiencia-card-info">
                 <div className="experiencia-card-logo-container align-items-center d-sm-flex">
                     <a href={trabajo.url} target="_blank" >

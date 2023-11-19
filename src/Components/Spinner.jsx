@@ -1,4 +1,4 @@
-import { Audio, FidgetSpinner } from 'react-loader-spinner'
+import {FidgetSpinner } from 'react-loader-spinner'
 const Spinner = () => {
 
     return (

@@ -24,16 +24,18 @@ const ExperienciaLaboral = () => {
       ) : (
         <div className="experiencia-container p-3">
           <div className="containerExperiencia d-flex align-items-center justify-content-center">
-          <FontAwesomeIcon icon={faBriefcase} className='mx-2 icon__expirence__logo'/><h2 className='text-center experiencia__laboral__h2'>Mi Experiencia Laboral</h2>
+            <FontAwesomeIcon icon={faBriefcase} className='mx-2 icon__expirence__logo' /><h2 className='text-center experiencia__laboral__h2'>Mi Experiencia Laboral</h2>
           </div>
-          <div className="experiencia-cards">
-            {datosExperiencia.map((trabajo, index) => (
-              <ExperienciaCard key={index} trabajo={trabajo} />
-            ))}
+            <div className="row">
+              {datosExperiencia.map((trabajo, index) => (
+                <div key={index} className="col-xxl-6 col-xl-6 col-md-6 col-12 my-2">
+                  <ExperienciaCard trabajo={trabajo} />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
       )}
-      <ScrollButton/>
+      <ScrollButton />
     </div>
   );
 };

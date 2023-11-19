@@ -4,11 +4,11 @@
     width: 100%;
 }
 .experiencia-card {
-    background-color: #222325ad;
+    background: #323231cf;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s; /* Agregar una transición suave para animar el cambio 
-    min-height: calc(100vh - 68px);
-    */ 
+    transition: transform 0.2s; 
+    min-height: 210px !important;
+    height: 100%;
 }
 .icon__expirence__logo{
     font-size: 2rem !important;

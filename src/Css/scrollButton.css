@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     left: 96%;
-    bottom: 30px;
+    bottom: 65px;
     height: 50px;
     font-size: 2.5rem;
     z-index: 1;
@@ -13,11 +13,11 @@
 
 @media screen and (max-width: 765px) {
     .scrollButton {
-        left: 88%!important;
+        left: 90%!important;
     }
 }
 @media screen and (max-width: 550px) {
     .scrollButton {
-        left: 83% !important;
+        left: 89% !important;
     }
 }
