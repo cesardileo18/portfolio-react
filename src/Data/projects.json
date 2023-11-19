@@ -40,11 +40,20 @@
         "img":"/img/projects/portfolio.png"
     },
     {
+        "name": "FinanzApp",
+        "projetType":"FrondEnd | BackEnd",
+        "description":"Registra fácilmente tus gastos diarios, organiza tus transacciones y obtén estadísticas visuales claras para tomar el control total de tus finanzas.",
+        "demo":"https://app-lista-gastos-abc37.web.app/#/",
+        "repository":"https://github.com/cesardileo18/app_lista_gastos",
+        "img":"/img/projects/appGastos.PNG"
+    },
+    {
         "name": "Envío de correo",
         "projetType":"BackEnd",
-        "description":"El proyecto, desarrollado en Node.js, utiliza la biblioteca Nodemailer para el envío de correos electrónicos. Las credenciales se manejan de forma segura a través de un archivo .env, gestionado con dotenv. La estructura de la lógica del proyecto se divide en capas: models, services, controller y router, con un middleware para manejar errores. Además, se ha implementado CORS para permitir el acceso desde cualquier origen o una lista específica de dominios. La aplicación está desplegada en Render para garantizar una disponibilidad eficiente.",
+        "description":"Registra fácilmente tus gastos diarios, organiza tus transacciones y obtén estadísticas visuales claras para tomar el control total de tus finanzas. ",
         "demo":"https://portfolio-cesar.web.app/#/contact",
         "repository":"https://github.com/cesardileo18/Backend-Portfolio",
         "img":"/img/projects/email.PNG"
     }
+  
 ]
