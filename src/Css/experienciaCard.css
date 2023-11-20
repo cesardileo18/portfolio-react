@@ -11,7 +11,7 @@
     height: 100%;
 }
 .icon__expirence__logo{
-    font-size: 2rem !important;
+    font-size: 1.3rem !important;
 }
 .experiencia-container-loading{
     min-height: calc(100vh - 60px);

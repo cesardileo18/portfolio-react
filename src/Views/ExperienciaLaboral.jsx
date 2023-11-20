@@ -24,7 +24,7 @@ const ExperienciaLaboral = () => {
       ) : (
         <div className="experiencia-container p-3">
           <div className="containerExperiencia d-flex align-items-center justify-content-center">
-            <FontAwesomeIcon icon={faBriefcase} className='mx-2 icon__expirence__logo' /><h2 className='text-center experiencia__laboral__h2'>Mi Experiencia Laboral</h2>
+            <FontAwesomeIcon icon={faBriefcase} className='mx-2 icon__expirence__logo' /><h2 className='text-center experiencia__laboral__h2'>Experiencia Laboral</h2>
           </div>
             <div className="row">
               {datosExperiencia.map((trabajo, index) => (

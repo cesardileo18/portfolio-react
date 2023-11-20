@@ -4,7 +4,7 @@
 }
 
 .card-type-badge-project {
-    background-color:rgb(10 10 10 / 69%);
+    background-color: rgb(10 10 10 / 69%);
     color: white;
     border-radius: 0.25rem;
 }
@@ -36,19 +36,22 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.card-title{
+
+.card-title {
     color: white !important;
     font-weight: 700;
 }
-.modal-title{
-     color: white !important;
-    font-weight: 700;   
+
+.modal-title {
+    color: white !important;
+    font-weight: 700;
 }
+
 .card-project {
     flex: 0 0 calc(33.333% - 20px);
     margin-bottom: 20px;
     padding: 20px;
-    max-height: 370px;
+    max-height: 290px;
     height: 100%;
     background: #323231cf;
 }
@@ -58,7 +61,7 @@
     top: 80px !important;
     left: 50px !important;
     width: 82vw !important;
-    height: 60vh !important;
+    height: 20vh !important;
 }
 
 .card__text__project {
@@ -91,19 +94,34 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 500px;
-    max-height: 500px;
-    height: 100%;
-    width: 100%;
+    width: 80% !important;
+    max-height: 350px !important;
     overflow-y: auto;
 }
+.click-icon {
+    display: none;
+    position: absolute;
+    top: 5px;
+    left: 80%;
+    transform: translateX(-50%);
+    color: #ff7c00;
+    font-weight: 800;
+    animation: moveHand 1.5s infinite alternate;
+}
 
+@keyframes moveHand {
+    to {
+        top: 10px;
+    }
+}
 .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.project__icon{
+    font-size: 1.3rem;
+}
 .btn-close {
     cursor: pointer;
     background-color: white !important;
@@ -119,5 +137,11 @@
 @media (max-width: 768px) {
     .card-project {
         flex: 0 0 calc(70% - 20px);
+    }
+    .click-icon {
+        display: flex;
+    }
+    h1.projects__h1{
+        font-size: 2rem !important;
     }
 }

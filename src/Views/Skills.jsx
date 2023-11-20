@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 import Spinner from '../Components/Spinner';
 import EducacionCard from '../Components/EducacionCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGraduationCap, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
+import { faCog, faGraduationCap, faPuzzlePiece, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import CertificatesCard from '../Components/CertificatesCard';
 import ScrollButton from '../Components/ScrollButton';
 const Skills = () => {
@@ -27,7 +27,9 @@ const Skills = () => {
             ) : (
                 <div className="container-fluid skills p-3">
                     <ParticlesBackgroundSnow />
-                    <h2 className='text-center skills__h2'>Mis habilidades</h2>
+                    <div className='d-flex align-items-center justify-content-center'>
+                        <FontAwesomeIcon icon={faCog} className='mx-2 skills__icon' /><h2 className='text-center skills__h2'>Habilidades</h2>
+                    </div>
                     <div className="skills-content">
                         <div className='contenerdor-cards d-flex align-content-around'>
                             <div className="d-flex justify-content-center align-items-center flex-wrap flex-sm-wrap ">
@@ -42,7 +44,7 @@ const Skills = () => {
                     {/* Iria aca */}
                     <div className="education-section">
                         <div className="education-section-title d-flex align-items-center justify-content-center my-2">
-                            <FontAwesomeIcon icon={faUserGraduate} className='mx-2 education-section-title'/>  <h2>Mi Educación</h2>
+                            <FontAwesomeIcon icon={faUserGraduate} className='mx-2 education-section-title' />  <h2>Mi Educación</h2>
                         </div>
                         <div className="row d-flex justify-content-evenly">
                             {education.map((edu, index) => (
@@ -54,7 +56,7 @@ const Skills = () => {
                     </div>
                     <div className="education-section">
                         <div className="education-section-title d-flex align-items-center justify-content-center my-2">
-                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title'/><h2>Certificaciones</h2>
+                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title' /><h2>Certificaciones</h2>
                         </div>
                         <div className="row">
                             {certificates.map((certificate, index) => (
@@ -66,7 +68,7 @@ const Skills = () => {
                     </div>
                 </div>
             )}
-            <ScrollButton/>
+            <ScrollButton />
         </div>
     );
 }
