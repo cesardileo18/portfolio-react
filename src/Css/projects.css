@@ -51,7 +51,6 @@
     flex: 0 0 calc(33.333% - 20px);
     margin-bottom: 20px;
     padding: 20px;
-    max-height: 290px;
     height: 100%;
     background: #323231cf;
 }
@@ -98,30 +97,34 @@
     max-height: 350px !important;
     overflow-y: auto;
 }
+
 .click-icon {
     display: none;
     position: absolute;
-    top: 5px;
+    top: 25px;
     left: 80%;
     transform: translateX(-50%);
     color: #ff7c00;
     font-weight: 800;
-    animation: moveHand 1.5s infinite alternate;
+    animation: moveHand 1s infinite alternate;
 }
 
 @keyframes moveHand {
     to {
-        top: 10px;
+        top: 30px;
     }
 }
+
 .modal-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.project__icon{
-    font-size: 1.3rem;
+
+.project__icon {
+    font-size: 2rem;
 }
+
 .btn-close {
     cursor: pointer;
     background-color: white !important;
@@ -138,10 +141,19 @@
     .card-project {
         flex: 0 0 calc(70% - 20px);
     }
+
     .click-icon {
         display: flex;
     }
-    h1.projects__h1{
+
+    h1.projects__h1 {
         font-size: 2rem !important;
+    }
+
+    .project__icon {
+        font-size: 1.3rem;
+    }
+    .card-project {
+        max-height: 290px;
     }
 }

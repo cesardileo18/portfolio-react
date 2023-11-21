@@ -50,7 +50,7 @@ section.education {
     background-color: whitesmoke;
 }
 .skills__icon{
-    font-size: 1.3rem;
+    font-size: 2rem;
 }
 .im__education {
     max-width: 350px !important;
@@ -78,5 +78,11 @@ section.education {
 @media (max-width: 574px) {
     .contenerdor-cards {
         margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+
+    .skills__icon{
+        font-size: 1.3rem;
     }
 }

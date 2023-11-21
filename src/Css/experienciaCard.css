@@ -11,7 +11,7 @@
     height: 100%;
 }
 .icon__expirence__logo{
-    font-size: 1.3rem !important;
+    font-size: 2rem !important;
 }
 .experiencia-container-loading{
     min-height: calc(100vh - 60px);
@@ -35,7 +35,9 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    .icon__expirence__logo{
+        font-size: 1.3rem !important;
+    }
 }
 @media screen and (max-width: 445px) {
     .experiencia-card-logo-container h3{
