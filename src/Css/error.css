@@ -1,38 +1,51 @@
-.contain-error {
+/* Contenedor principal del error */
+.error {
     min-height: calc(100vh - 55px) !important;
     display: flex !important;
     flex-direction: column !important;
     background-color: whitesmoke;
     align-items: center !important;
-}
-
-.error-heading {
-    color: #ff6347;
-    /* Color rojo oscuro, puedes ajustarlo según tu paleta de colores */
-}
-
-.error-message {
+  }
+  
+  /* Encabezado del error */
+  .error__header {
+    text-align: center;
+  }
+  
+  .error__heading {
+    color: #ff6347; /* Color rojo oscuro, ajusta según tu paleta de colores */
+  }
+  
+  /* Mensaje de error */
+  .error__message {
     color: #333;
     margin-bottom: 20px;
-}
-
-.error-image {
+  }
+  
+  /* Contenido del error */
+  .error__content {
+    text-align: center;
+  }
+  
+  /* Imagen de error */
+  .error__image {
     margin-top: 40px;
     margin-bottom: 20px;
     width: 400px;
-}
-
-.error-back {
-    color: #007bff;
-    /* Color azul, puedes ajustarlo según tu paleta de colores */
+  }
+  
+  /* Enlace de retorno */
+  .error__back {
+    color: #007bff; /* Color azul, ajusta según tu paleta de colores */
     font-weight: bold;
-}
-
-.error-back a {
+  }
+  
+  .error__back a {
     text-decoration: none;
     color: #007bff;
-}
-
-.error-back a:hover {
+  }
+  
+  .error__back a:hover {
     text-decoration: underline;
-}
+  }
+  
