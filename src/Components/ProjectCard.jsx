@@ -32,26 +32,27 @@ const ProjectCard = ({ project }) => {
         return truncatedText;
     };
     return (
-        <div className="card-project mb-3 rounded-1">
-            <div className="position-relative">
+        <section className="card-project mb-3 rounded-1">
+            <section className="position-relative">
                 <div className="click-icon">
                     <FontAwesomeIcon icon={faHandPointer} />
-                </div><img src={project.img} alt={`${project.name} Imagen`} className="card-img-top-project" style={{ cursor: 'pointer' }} onClick={toggleModal} />
-                <div className="card-type-badge-project position-absolute bottom-0  start-0 p-2 text-white">
+                </div>
+                <img src={project.img} alt={`${project.name} Imagen`} className="card-img-top-project" style={{ cursor: 'pointer' }} onClick={toggleModal} />
+                <div className="card-type-badge-project position-absolute bottom-0 start-0 p-2 text-white">
                     <p className="card__text__project">{project.projetType}</p>
                 </div>
-            </div>
-            <div className="card-body-project my-2">
+            </section>
+            <section className="card-body-project my-2">
                 <h5 className="card-title">{project.name}</h5>
-            </div>
+            </section>
             {/* Modal */}
             {showModal && (
-                <div className="modal-container" onClick={handleModalClick}>
-                    <div className="modal-content">
-                        <div className="modal-header">
+                <section className="modal-container" onClick={handleModalClick}>
+                    <section className="modal-content">
+                        <header className="modal-header">
                             <button type="button" className="btn-close project" onClick={toggleModal}></button>
-                        </div>
-                        <div className="modal-body">
+                        </header>
+                        <section className="modal-body">
                             <div className='d-flex justify-content-center p-2'>
                                 <img src={project.img} alt={`${project.name} Imagen`} className="card-img-top-modal" onClick={toggleModal} />
                             </div>
@@ -69,14 +70,14 @@ const ProjectCard = ({ project }) => {
                                     <FontAwesomeIcon icon={faGlobe} className='mx-2' /> Demo
                                 </a>
                                 <a href={getProjectLink('repository')} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
-                                    <FontAwesomeIcon icon={faGithub} className='mx-2' />Repositorio
+                                    <FontAwesomeIcon icon={faGithub} className='mx-2' /> Repositorio
                                 </a>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                        </section>
+                    </section>
+                </section>
             )}
-        </div>
+        </section>
     );
 }
 
