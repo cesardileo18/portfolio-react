@@ -26,7 +26,13 @@
     color: white;
     font-weight: 700;
 }
-
+.certificates{
+    display: none !important;
+    
+}
+.container-section-certificate{
+    display: none !important;
+}
 section.education {
     width: 100%;
     height: 100%;
@@ -69,11 +75,19 @@ section.education {
     width: 100%;
     background: #323231cf !important;
 }
-
+.card__certificate{
+    display: flex;
+    align-items: center;
+    height: 350px !important;
+    width: 100%;
+    background: #323231cf !important;
+}
 .education-section-title {
     font-size: 2rem;
 }
-
+div.mobile{
+    display: none !important;
+}
 /* Aplicar margen solo en pantallas con un ancho máximo de 600px */
 @media (max-width: 574px) {
     .contenerdor-cards {
@@ -81,8 +95,34 @@ section.education {
     }
 }
 @media (max-width: 768px) {
-
     .skills__icon{
         font-size: 1.3rem;
+    }
+    .container-section-certificate{
+        display: block !important;
+    }
+    .certificates{
+        display: flex !important;
+        width: 100%;
+        overflow-x: auto;
+    }
+    .certificate-desktop{
+        display: none !important;
+    }
+    div.certificate-title{
+        display: none !important;
+    }
+    div.mobile{
+        display: flex !important;
+    }
+    .container-education{
+        overflow-x: auto !important;
+        flex-wrap: nowrap !important;
+    }
+    .card__certificate{
+        width: 90% !important;
+    }
+    .education-section-title{
+        font-size: 1.3rem !important;
     }
 }

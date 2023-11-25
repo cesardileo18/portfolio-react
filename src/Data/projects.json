@@ -50,7 +50,7 @@
     {
         "name": "Envío de correo",
         "projetType":"BackEnd",
-        "description":"Registra fácilmente tus gastos diarios, organiza tus transacciones y obtén estadísticas visuales claras para tomar el control total de tus finanzas. ",
+        "description":"La API de Envío de Correos Electrónicos en Node.js ofrece una solución robusta y eficiente para la gestión de envíos de correos electrónicos de forma sencilla e integrada en tu aplicación. Desarrollada utilizando Node.js, esta API proporciona una plataforma confiable para enviar mensajes de correo electrónico de manera rápida y segura.",
         "demo":"https://portfolio-cesar.web.app/#/contact",
         "repository":"https://github.com/cesardileo18/Backend-Portfolio",
         "img":"/img/projects/email.PNG"

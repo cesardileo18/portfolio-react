@@ -4,7 +4,7 @@ import ProjectCard from "../Components/ProjectCard";
 import "../Css/projects.css"
 import Spinner from "../Components/Spinner";
 import ScrollButton from '../Components/ScrollButton';
-import { faDraftingCompass, faFile, faToolbox } from "@fortawesome/free-solid-svg-icons";
+import { faDraftingCompass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Projects = () => {
@@ -13,7 +13,7 @@ const Projects = () => {
         setShowSpinner(true)
         setTimeout(() => {
             setShowSpinner(false)
-        }, 1500);
+        }, 1800);
     }, [])
     return (
         <section className="main__projectsLogin">

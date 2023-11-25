@@ -18,8 +18,24 @@ const Skills = () => {
         setShowSpinner(true)
         setTimeout(() => {
             setShowSpinner(false)
-        }, 700);
+        }, 1600);
     }, [])
+    const renderCertificateSections = () => {
+        const sections = [];
+
+        for (let i = 0; i < certificates.length; i += 2) {
+            const certificate1 = certificates[i];
+            const certificate2 = i + 1 < certificates.length ? certificates[i + 1] : null;
+
+            sections.push(
+                <section key={i} className="container-section-certificate col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 m-2">
+                    {<CertificatesCard certificate={certificate1} />}
+                    {certificate2 && <CertificatesCard certificate={certificate2} />}
+                </section>
+            );
+        }
+        return sections;
+    };
     return (
         <div className='contain-skill-spinner'>
             {showSpinner ? (
@@ -41,12 +57,11 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    {/* Iria aca */}
                     <div className="education-section">
                         <div className="education-section-title d-flex align-items-center justify-content-center my-2">
                             <FontAwesomeIcon icon={faUserGraduate} className='mx-2 education-section-title' />  <h2>Mi Educación</h2>
                         </div>
-                        <div className="row d-flex justify-content-evenly">
+                        <div className="row d-flex justify-content-lg-evenly justify-content-md-evenly container-education">
                             {education.map((edu, index) => (
                                 <div className="col-lg-6 col-md-5 col-sm-12 col-12 mb-4" key={index}>
                                     <EducacionCard education={edu} />
@@ -54,11 +69,19 @@ const Skills = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="education-section">
-                        <div className="education-section-title d-flex align-items-center justify-content-center my-2">
+                    <div>
+                        <div className="mobile d-flex align-items-center justify-content-center my-2">
                             <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title' /><h2>Certificaciones</h2>
                         </div>
-                        <div className="row">
+                        <section className='certificates d-flex ms-md-2 ms-sm-2 ms-2'>
+                            {renderCertificateSections()}
+                        </section>
+                    </div>
+                    <div className="education-section">
+                        <div className="certificate-title d-flex align-items-center justify-content-center my-2">
+                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title' /><h2>Certificaciones</h2>
+                        </div>
+                        <div className="row certificate-desktop">
                             {certificates.map((certificate, index) => (
                                 <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-2" key={index}>
                                     <CertificatesCard certificate={certificate} />

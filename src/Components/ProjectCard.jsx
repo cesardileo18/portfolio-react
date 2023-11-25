@@ -59,7 +59,7 @@ const ProjectCard = ({ project }) => {
                             <p className='my-2 text-white'>
                                 {showFullText ? project.description : truncateDescription(project.description)}
                             </p>
-                            {project.description.length > 21 && (
+                            {project.description.length > 149 && (
                                 <p className="my-2" onClick={() => setShowFullText(!showFullText)}>
                                     {showFullText ? 'Mostrar menos' : 'Mostrar más'}
                                 </p>

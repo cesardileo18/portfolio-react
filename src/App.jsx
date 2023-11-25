@@ -18,18 +18,21 @@ const App = () => {
         ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
     return (
-        <main className="app">
-            <Routes>
-                <Route path="/" element={<Inicio />} />
-                <Route path="/inicio" element={<Inicio />} />
-                <Route path="/projects" element={<Projects />} />
-                <Route path="/expirence" element={<ExperienciaLaboral />} />
-                <Route path="/skills" element={<Skills />} />
-                <Route path="/contact" element={<Contacto />} />
-                <Route path="*" element={<Error />} />
-            </Routes>
+        <>
+            <main className="app">
+                <Routes>
+                    <Route path="/" element={<Inicio />} />
+                    <Route path="/inicio" element={<Inicio />} />
+                    <Route path="/projects" element={<Projects />} />
+                    <Route path="/expirence" element={<ExperienciaLaboral />} />
+                    <Route path="/skills" element={<Skills />} />
+                    <Route path="/contact" element={<Contacto />} />
+                    <Route path="*" element={<Error />} />
+                </Routes>
+            </main>
             <Footer />
-        </main>
+        </>
+
     );
 }
 export default App;

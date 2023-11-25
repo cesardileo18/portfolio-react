@@ -156,4 +156,9 @@
     .card-project {
         max-height: 290px;
     }
+    .modal-content {
+        width: 90% !important;
+        max-height: 380px !important;
+
+    }
 }

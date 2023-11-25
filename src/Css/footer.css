@@ -14,11 +14,17 @@ section.footer{
     align-items: center;
 }
 /* .footer__icons.selected {
-
+     width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px; 
+    border-bottom: 1px solid #ff8c00;
 } */
 
-/* .footer__icons.selected .footer__icon {
-} */
+.footer__icons.selected .footer__icon {
+    color: #ff8c00;
+}
 .footer__icons.selected .footer__p {
     color: #ff8c00;
 }

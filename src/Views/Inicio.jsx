@@ -11,7 +11,7 @@ const Inicio = () => {
         setShowSpinner(true);
         setTimeout(() => {
             setShowSpinner(false);
-        }, 1000);
+        }, 1500);
     }, []);
 
     return (

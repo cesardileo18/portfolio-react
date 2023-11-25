@@ -1,52 +1,69 @@
-.experiencia-logo{
+/* Logo de Experiencia */
+.experience-logo {
     max-width: 100px;
     max-height: 100px;
     width: 100%;
 }
-.experiencia-card {
+
+/* Tarjeta de Experiencia */
+.experience-card {
     background: #323231cf;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s; 
+    transition: transform 0.2s;
     min-height: 210px !important;
     height: 100%;
 }
-.icon__expirence__logo{
+
+/* Icono de Experiencia */
+.icon__experience__logo {
     font-size: 2rem !important;
 }
-.experiencia-container-loading{
-    min-height: calc(100vh - 60px);
+
+/* Contenedor de Experiencia durante la carga */
+.experiencia-container-loading {
+    min-height: calc(100vh - 55px);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.experiencia-container{
+
+/* Contenedor principal de Experiencia */
+.experiencia-container {
     background-color: whitesmoke;
-    min-height: calc(100vh - 45px);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.experiencia__texto{
+
+/* Texto de Experiencia */
+.experience__text {
     color: white;
 }
+
+/* Media queries para pantallas más pequeñas (max-width: 795px) */
 @media screen and (max-width: 795px) {
-    .experiencia-card-logo-container h3{
+    .experience-card-logo-container h3 {
         font-size: 1.3rem !important;
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .icon__expirence__logo{
+
+    .icon__experience__logo {
         font-size: 1.3rem !important;
     }
 }
+
+/* Media queries para pantallas aún más pequeñas (max-width: 445px) */
 @media screen and (max-width: 445px) {
-    .experiencia-card-logo-container h3{
+    .experience-card-logo-container h3 {
         font-size: 1rem !important;
     }
-    .experiencia-card:hover {
-        transform:  scale(1.1);
+
+    .experience-card:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 4px 8px #9e9e9aeb;
     }
-    .experiencia__laboral__h2{
+
+    .experience__laboral__h2 {
         font-size: 1.5rem !important;
     }
 }
