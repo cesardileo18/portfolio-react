@@ -1,47 +1,53 @@
-footer{
+/* Contenedor principal del footer */
+footer {
     width: 100%;
     height: 100%;
     position: relative;
     z-index: 1;
-}
-
-section.footer{
+  }
+  
+  /* Barra de navegación del footer */
+  nav.footer {
     width: 100%;
     background-color: rgb(50, 50, 50);
     display: flex;
     padding: 15px;
     justify-content: space-evenly;
     align-items: center;
-}
-/* .footer__icons.selected {
-     width: 100%;
-    height: 100%;
-    background-color: white;
-    padding: 5px;
-    border-radius: 10px; 
-    border-bottom: 1px solid #ff8c00;
-} */
-
-.footer__icons.selected .footer__icon {
-    color: #ff8c00;
-}
-.footer__icons.selected .footer__p {
-    color: #ff8c00;
-}
-.footer__icons{
+  }
+  
+  /* Iconos del footer */
+  .footer__icon-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-}
-.footer__icon{
+  }
+  
+  /* Icono seleccionado */
+  .footer__icon-container.selected .footer__icon,
+  .footer__icon-container.selected .footer__label {
+    color: #ff8c00;
+  }
+  
+  /* Estilo del icono */
+  .footer__icon {
     color: white;
-}
-.footer__p{
+  }
+  
+  /* Etiqueta del icono */
+  .footer__label {
     color: white;
-}
-@media screen and (max-width: 795px) {
-    .footer__p{
-        font-size: 0.7rem !important;
+  }
+  
+  /* Estilo adicional después de seleccionar un icono */
+  /* .footer__additional-div {
+  } */
+  
+  @media screen and (max-width: 795px) {
+    /* Estilos adicionales para pantallas pequeñas aquí */
+    .footer__label {
+      font-size: 0.7rem !important;
     }
-}
+  }
+  
