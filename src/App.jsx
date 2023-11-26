@@ -7,16 +7,21 @@ import "./Css/app.css"
 import ExperienciaLaboral from "./Views/ExperienciaLaboral";
 import Contacto from "./Views/Contacto";
 import Error from "./Views/Error";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation  } from "react-router-dom";
 import ReactGA from 'react-ga';
 const App = () => {
     const idAnalytic = import.meta.env.VITE_GA_ID
+    const location = useLocation();
     useEffect(() => {
         // Inicializar ReactGA con ID de seguimiento
-        ReactGA.initialize(idAnalytic);
+        // ReactGA.initialize(idAnalytic);
         // Enviar una página vista inicial al cargar la aplicación
-        ReactGA.pageview(window.location.pathname + window.location.search);
-    }, []);
+        // ReactGA.pageview(window.location.pathname + window.location.search);
+      // Inicializar ReactGA con ID de seguimiento
+      ReactGA.initialize(idAnalytic);
+      // Enviar una página vista cada vez que cambias de ruta
+      ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
     return (
         <>
             <main className="app">

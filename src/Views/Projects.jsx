@@ -4,9 +4,8 @@ import ProjectCard from "../Components/ProjectCard";
 import "../Css/projects.css"
 import Spinner from "../Components/Spinner";
 import ScrollButton from '../Components/ScrollButton';
-import { faDraftingCompass } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faDesktop, faDraftingCompass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ReactGA from 'react-ga';
 
 const Projects = () => {
     const [showSpinner, setShowSpinner] = useState(false);
@@ -15,11 +14,6 @@ const Projects = () => {
         setTimeout(() => {
             setShowSpinner(false)
         }, 1500);
-        const idAnalytic = import.meta.env.VITE_GA_ID
-        // Inicializar ReactGA con ID de seguimiento
-        ReactGA.initialize(idAnalytic);
-        // Enviar una página vista inicial al cargar la aplicación
-        ReactGA.pageview(window.location.pathname + window.location.search);
     }, [])
     return (
         <section className="main__projects main__projects--login">
@@ -28,7 +22,7 @@ const Projects = () => {
             ) : (
                 <section className="main__projects p-3">
                     <div className="projects__contenedor__h1 d-flex align-items-center">
-                        <FontAwesomeIcon icon={faDraftingCompass} className='mx-2 project__icon' />
+                        <FontAwesomeIcon icon={faCode} className='mx-2 project__icon' />
                         <h1 className="projects__h1">Proyectos</h1>
                     </div>
                     <section className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3 projects__cards">

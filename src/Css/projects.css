@@ -1,9 +1,17 @@
 /* Estilos generales */
 .card-img-top-project {
-    max-width: 100%;
-    height: auto;
+    max-width: 400px;
+    height: 200px !important;
+    height: 100%;
+    width: 100%;
 }
 
+.btn-secondary {
+    background-color: #36383a !important;
+}
+.btn-secondary:hover {
+    background-color: #696c70 !important;
+}
 .card-type-badge-project {
     background-color: rgb(10 10 10 / 69%);
     color: white;
@@ -40,7 +48,7 @@
 
 .card-title {
     color: white !important;
-    font-weight: 700;
+    font-weight: 500 !important;
 }
 
 .modal-title {
@@ -66,14 +74,18 @@
 }
 
 .card__text__project {
-    font-size: 0.6rem !important;
-}
+    font-size: 0.7rem !important;
+    color: #ff8c00;
+    font-weight: 800;
 
+}
 .card-img-top-modal {
     max-width: 200px;
     width: 100%;
 }
-
+h1.projects__h1 {
+    font-size: 2rem !important;
+}
 /* Estilos del modal */
 .modal-container {
     position: fixed;
@@ -125,7 +137,7 @@
 }
 
 .project__icon {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .btn-close {
@@ -151,13 +163,15 @@
     }
 
     h1.projects__h1 {
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
 
     .project__icon {
         font-size: 1.3rem;
     }
+
     .card-project {
         max-height: 290px;
     }
+
 }

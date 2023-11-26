@@ -19,16 +19,15 @@
 }
 
 /* Contenedor de Experiencia durante la carga */
-.experiencia-container-loading {
+.experiencia-container{
     min-height: calc(100vh - 55px);
     display: flex;
-    align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
 }
 
 /* Contenedor principal de Experiencia */
-.experiencia-container {
-    background-color: whitesmoke;
+.experiencia {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -46,7 +45,9 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    .experience__laboral__h2 {
+        font-size: 1.5rem !important;
+    }
     .icon__experience__logo {
         font-size: 1.3rem !important;
     }
@@ -59,11 +60,8 @@
     }
 
     .experience-card:hover {
-        transform: scale(1.1);
         box-shadow: 0px 4px 8px #9e9e9aeb;
     }
 
-    .experience__laboral__h2 {
-        font-size: 1.5rem !important;
-    }
+ 
 }

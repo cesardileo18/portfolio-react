@@ -6,6 +6,8 @@ const EducacionCard = ({ education }) => {
                 <div className="card-body card__education__body">
                     <h5 className="card-title card__education__title">{education.name}</h5>
                 </div>
+                <h5 className="showMoreTextCertificate">{education.date}</h5>
+
             </div>
         </section>
     );

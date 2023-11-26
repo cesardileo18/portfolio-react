@@ -2,16 +2,8 @@
 .inicioPage {
     min-height: calc(100vh - 60px);
     display: flex;
+    background: whitesmoke;
 }
-
-/* Spinner */
-.spinner-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 /* Header (Bloque) */
 .inicio-header {
     width: 100%;

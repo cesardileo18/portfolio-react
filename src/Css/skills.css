@@ -56,7 +56,7 @@ section.education {
     background-color: whitesmoke;
 }
 .skills__icon{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .im__education {
     max-width: 350px !important;
@@ -78,7 +78,7 @@ section.education {
 .card__certificate{
     display: flex;
     align-items: center;
-    height: 350px !important;
+    height: 400px !important;
     width: 100%;
     background: #323231cf !important;
 }
@@ -96,7 +96,11 @@ div.mobile{
 }
 @media (max-width: 768px) {
     .skills__icon{
-        font-size: 1.3rem;
+        font-size: 1.3rem !important;
+    }
+    .skills__h2{
+        font-size: 1.5rem !important;
+
     }
     .container-section-certificate{
         display: block !important;

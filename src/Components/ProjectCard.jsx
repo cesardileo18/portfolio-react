@@ -48,7 +48,7 @@ const ProjectCard = ({ project }) => {
             {/* Modal */}
             {showModal && (
                 <section className="modal-container" onClick={handleModalClick}>
-                    <section className="modal-content">
+                    <section className="modal-content rounded-2">
                         <header className="modal-header">
                             <button type="button" className="btn-close project" onClick={toggleModal}></button>
                         </header>
@@ -61,12 +61,12 @@ const ProjectCard = ({ project }) => {
                                 {showFullText ? project.description : truncateDescription(project.description)}
                             </p>
                             {project.description.length > 149 && (
-                                <p className="my-2" onClick={() => setShowFullText(!showFullText)}>
+                                <p className="my-2 showMoreText" onClick={() => setShowFullText(!showFullText)}>
                                     {showFullText ? 'Mostrar menos' : 'Mostrar más'}
                                 </p>
                             )}
                             <div className='d-flex justify-content-evenly'>
-                                <a href={getProjectLink('demo')} className="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                                <a href={getProjectLink('demo')} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faGlobe} className='mx-2' /> Demo
                                 </a>
                                 <a href={getProjectLink('repository')} className="btn btn-secondary" target="_blank" rel="noopener noreferrer">

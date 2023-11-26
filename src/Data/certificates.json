@@ -1,82 +1,102 @@
 [
     {
         "name":"Programación BackEnd",
-        "image":"/img/Certificates/NodeJs.png"
+        "image":"/img/Certificates/NodeJs.png",
+        "date":"Septiembre. 2023"
     },
     {
         "name":"Inglés para desarrollo nivel elementary",
-        "image":"/img/Certificates/InglesElementary.png"
+        "image":"/img/Certificates/InglesElementary.png",
+        "date":"Mayo. 2023"
     },
     {
         "name":"React Js",
-        "image":"/img/Certificates/ReactJsCoder.png"
+        "image":"/img/Certificates/ReactJsCoder.png",
+        "date":"Abril. 2023"
     },
     {
         "name":"JavaScript",
-        "image":"/img/Certificates/Javascript.png"
+        "image":"/img/Certificates/Javascript.png",
+        "date":"Febrero. 2023"
     },
     {
         "name":"Web development",
-        "image":"/img/Certificates/DesarrolloWeb.png"
+        "image":"/img/Certificates/DesarrolloWeb.png",
+        "date":"Noviembre. 2022"
     },
     {
         "name":"Programación Web.Net Core",
-        "image":"/img/Certificates/programacion web .net EducacionIt.PNG"
+        "image":"/img/Certificates/programacion web .net EducacionIt.PNG",
+        "date":"Septiembre. 2022"
     },
     {
         "name":"Introducción al Paradigma Objetos",
-        "image":"/img/Certificates/Introduccion al paradigma de objeto EducacionIt.PNG"
+        "image":"/img/Certificates/Introduccion al paradigma de objeto EducacionIt.PNG",
+        "date":"Junio. 2022"
     },
     {
         "name":"Introduccion Al Lenguaje de Programacion",
-        "image":"/img/Certificates/Introduccion al lenguaje de programacion.PNG"
+        "image":"/img/Certificates/Introduccion al lenguaje de programacion.PNG",
+        "date":"Marzo. 2022"
     },
     {
         "name":"JavaScript EducacionIT",
-        "image":"/img/Certificates/JavascriptEducacionIt.png"
+        "image":"/img/Certificates/JavascriptEducacionIt.png",
+        "date":"Marzo. 2022"
     },
     {
         "name":"React Js Avanzado EducacionIT",
-        "image":"/img/Certificates/react avanzado EducacionIt.PNG"
+        "image":"/img/Certificates/react avanzado EducacionIt.PNG",
+        "date":"Noviembre. 2021"
     },
     {
         "name":"Web Api .net Core EducacionIt",
-        "image":"/img/Certificates/web api .net core EducacionIt.PNG"
+        "image":"/img/Certificates/web api .net core EducacionIt.PNG",
+        "date":"Noviembre. 2021"
     },
     {
         "name":"React Js EducacionIt",
-        "image":"/img/Certificates/react basico EducacionIt.PNG"
+        "image":"/img/Certificates/react basico EducacionIt.PNG",
+        "date":"Octubre. 2021"
     },
     {
         "name":"Qlik Sense Diseñador",
-        "image":"/img/Certificates/qlikSense diseñador.PNG"
+        "image":"/img/Certificates/qlikSense diseñador.PNG",
+        "date":"Agosto. 2021"
     },
     {
         "name":"Qlik Sense Desarrollador",
-        "image":"/img/Certificates/qlikSense desarrollador.PNG"
+        "image":"/img/Certificates/qlikSense desarrollador.PNG",
+        "date":"Agosto. 2021"
     },
     {
         "name":"React Js Firebase",
-        "image":"/img/Certificates/react firebase Udemy.jpg"
+        "image":"/img/Certificates/react firebase Udemy.jpg",
+        "date":"Abril. 2021"
     },
     {
         "name":"Php MySql",
-        "image":"/img/Certificates/php MySql Udemy.jpg"
+        "image":"/img/Certificates/php MySql Udemy.jpg",
+        "date":"Abril. 2021"
     },
     {
         "name":"Diseño Web Profesional",
-        "image":"/img/Certificates/diseño web profesional.jpg"
+        "image":"/img/Certificates/diseño web profesional.jpg",
+        "date":"Diciembre. 2020"
     },
     {
         "name":"Reparación y Mantenimiento de Computadoras",
-        "image":"/img/Certificates/reparacion Pc.jpg"
+        "image":"/img/Certificates/reparacion Pc.jpg",
+        "date":"Noviembre. 2020"
     },
     {
         "name":"Reparación y Mantenimiento de Notebooks",
-        "image":"/img/Certificates/reparacion notebook.jpg"
+        "image":"/img/Certificates/reparacion notebook.jpg",
+        "date":"Noviembre. 2020"
     },
     {
         "name":"Programación Web Full Stack",
-        "image":"/img/Certificates/DepcSuite.PNG"
+        "image":"/img/Certificates/DepcSuite.PNG",
+        "date":"Agosto. 2020"
     }
 ]

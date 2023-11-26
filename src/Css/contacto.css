@@ -11,7 +11,9 @@
     background: none;
     color: white;
   }
-  
+  .contact-title{
+    font-size: 2rem !important;
+  }
   .initialBtn {
     animation: subirBajar 1.6s infinite alternate;
     border: none;
@@ -19,18 +21,20 @@
     background: none;
     color: white;
   }
-  
   /* Contenedor principal */
-  .contain-contact-spinner {
+  .contact-section {
     min-height: calc(100vh - 60px);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
+    width: 100%;
+
   }
   
   /* Formulario y Contenedor de Formulario */
   .contain-form {
-    min-height: calc(100vh - 63px);
+    /* min-height: calc(100vh - 63px); */
     background-color: whitesmoke;
     width: 100%;
   }
@@ -176,13 +180,16 @@
   }
   @media screen and (max-width: 768px) {
     .contain-form h1 {
-      font-size: 2rem !important;
+      font-size: 1.5rem !important;
     }
     .contain-form h2 {
       font-size: 1.5rem !important;
     }
     .contact-description{
       text-align: justify;
+    }
+    .contact-title{
+      font-size: 1.5rem !important;
     }
   }
   

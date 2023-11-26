@@ -12,7 +12,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCog, faGraduationCap, faPuzzlePiece, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import CertificatesCard from '../Components/CertificatesCard';
 import ScrollButton from '../Components/ScrollButton';
-import ReactGA from 'react-ga';
 
 const Skills = () => {
     const [showSpinner, setShowSpinner] = useState(false);
@@ -21,12 +20,6 @@ const Skills = () => {
         setTimeout(() => {
             setShowSpinner(false)
         }, 1600);
-        const idAnalytic = import.meta.env.VITE_GA_ID
-
-        // Inicializar ReactGA con ID de seguimiento
-        ReactGA.initialize(idAnalytic);
-        // Enviar una página vista inicial al cargar la aplicación
-        ReactGA.pageview(window.location.pathname + window.location.search);
     }, [])
     const renderCertificateSections = () => {
         const sections = [];
@@ -67,7 +60,7 @@ const Skills = () => {
                     </div>
                     <div className="education-section">
                         <div className="education-section-title d-flex align-items-center justify-content-center my-2">
-                            <FontAwesomeIcon icon={faUserGraduate} className='mx-2 education-section-title' />  <h2>Mi Educación</h2>
+                            <FontAwesomeIcon icon={faUserGraduate} className='mx-2 skills__icon' /> <h2 className='skills__h2'>Mi Educación</h2>
                         </div>
                         <div className="row d-flex justify-content-lg-evenly justify-content-md-evenly container-education">
                             {education.map((edu, index) => (
@@ -79,7 +72,7 @@ const Skills = () => {
                     </div>
                     <div>
                         <div className="mobile d-flex align-items-center justify-content-center my-2">
-                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title' /><h2>Certificaciones</h2>
+                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 skills__icon' /><h2 className='skills__h2'>Certificaciones</h2>
                         </div>
                         <section className='certificates d-flex ms-md-2 ms-sm-2 ms-2'>
                             {renderCertificateSections()}
@@ -87,7 +80,7 @@ const Skills = () => {
                     </div>
                     <div className="education-section">
                         <div className="certificate-title d-flex align-items-center justify-content-center my-2">
-                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 education-section-title' /><h2>Certificaciones</h2>
+                            <FontAwesomeIcon icon={faGraduationCap} className='mx-2 skills__icon' /><h2 className='skills__h2'>Certificaciones</h2>
                         </div>
                         <div className="row certificate-desktop">
                             {certificates.map((certificate, index) => (

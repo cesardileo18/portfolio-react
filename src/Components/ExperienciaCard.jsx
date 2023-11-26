@@ -30,7 +30,7 @@ const ExperienciaCard = ({ trabajo }) => {
           {showFullText ? trabajo.descripcion : truncateDescription(trabajo.descripcion)}
         </p>
         {trabajo.descripcion.length > 310 && (
-          <p className="my-2" onClick={() => setShowFullText(!showFullText)}>
+          <p className="my-2 showMoreText" onClick={() => setShowFullText(!showFullText)}>
             {showFullText ? 'Mostrar menos' : 'Mostrar más'}
           </p>
         )}

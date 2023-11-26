@@ -1,10 +1,12 @@
 [
     {
         "name":"Carrera de Desarrollo Full Stack",
-        "image":"/img/Carrera/certificado-carreraFullStack.png"
+        "image":"/img/Carrera/certificado-carreraFullStack.png",
+        "date":"Septiembre. 2022 | Septiembre. 2023"
     },
     {
         "name":"Ingeniería electrónica | Not Finished",
-        "image":"/img/Carrera/santiago marino.png"
+        "image":"/img/Carrera/santiago marino.png",
+        "date":""
     }
 ]
