@@ -14,6 +14,7 @@ const Projects = () => {
         setTimeout(() => {
             setShowSpinner(false)
         }, 1500);
+        document.title = 'Portfolio-Cesar-Proyectos';
     }, [])
     return (
         <section className="main__projects main__projects--login">

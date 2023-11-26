@@ -20,6 +20,8 @@ const Skills = () => {
         setTimeout(() => {
             setShowSpinner(false)
         }, 1600);
+    document.title = 'Portfolio-Cesar-Habilidades';
+
     }, [])
     const renderCertificateSections = () => {
         const sections = [];

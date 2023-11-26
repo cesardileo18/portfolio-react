@@ -15,6 +15,8 @@ const ExperienciaLaboral = () => {
     setTimeout(() => {
       setShowSpinner(false);
     }, 800);
+    document.title = 'Portfolio-Cesar-Experiencia';
+
   }, []);
 
   return (

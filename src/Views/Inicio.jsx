@@ -12,6 +12,7 @@ const Inicio = () => {
         setTimeout(() => {
             setShowSpinner(false);
         }, 1500);
+        document.title = 'Portfolio-Cesar-Inicio';
     }, []);
 
     return (

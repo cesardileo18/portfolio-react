@@ -71,7 +71,7 @@ section.education {
 .card__education {
     display: flex;
     align-items: center;
-    height: 350px !important;
+    height: 400px !important;
     width: 100%;
     background: #323231cf !important;
 }

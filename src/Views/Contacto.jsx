@@ -17,6 +17,10 @@ const Contacto = () => {
   const [alertMessage, setAlertMessage] = useState('');
   const [responseMenssage, setResponseMenssage] = useState();
 
+
+  useEffect(() => {
+    document.title = 'Portfolio-Cesar-Contacto';
+  }, [])
   const toggleFormulario = () => {
     setFormularioVisible(!formularioVisible);
     setPressed(!pressed);
