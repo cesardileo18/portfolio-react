@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAt, faComment, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import Spinner from '../Components/Spinner';
 import '../Css/contacto.css';
 import ScrollButton from '../Components/ScrollButton';
+import ReactGA from 'react-ga';
 
 const Contacto = () => {
   const [formularioVisible, setFormularioVisible] = useState(false);
@@ -17,11 +18,18 @@ const Contacto = () => {
   const [alertMessage, setAlertMessage] = useState('');
   const [responseMenssage, setResponseMenssage] = useState();
 
+  const idAnalytic = import.meta.env.VITE_GA_ID
+  useEffect(() => {
+      // Inicializar ReactGA con ID de seguimiento
+      ReactGA.initialize(idAnalytic);
+      // Enviar una página vista inicial al cargar la aplicación
+      ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   const toggleFormulario = () => {
     setFormularioVisible(!formularioVisible);
     setPressed(!pressed);
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -63,16 +71,14 @@ const Contacto = () => {
       setShowAlert(true);
     }
   };
-
   const buttonClass = `button ${pressed ? 'pressed' : 'initialBtn'}`;
-
   return (
     <section className='contact-section'>
       <div className='contain-contact-spinner'>
         {showSpinner ? (
           <Spinner />
         ) : (
-          <div className='contain-form'>
+          <div className='contain-form pt-3'>
             <header>
               <h1 className='text-center'>Página de Contacto</h1>
             </header>
@@ -136,7 +142,7 @@ const Contacto = () => {
               </div>
             ) : (
               <div className='agradecimiento mt-5 p-3'>
-                <h4>
+                <h4 className='contact-description'>
                   Gracias por visitar mi página! Si deseas contactarme, puedes encontrarme en LinkedIn o hacerlo a través del formulario de correo electrónico. También puedes explorar mis proyectos y metodología de trabajo en mi repositorio de GitHub.
                 </h4>
               </div>

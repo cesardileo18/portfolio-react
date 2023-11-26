@@ -159,7 +159,9 @@
     color: white;
     cursor: pointer;
   }
-  
+  .contact-description{
+    line-height: 2.5;
+  }
   /* Animación de botón inicial */
   @keyframes subirBajar {
     0% {
@@ -172,14 +174,15 @@
       opacity: 1;
     }
   }
-  
-  /* Estilos responsivos */
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 768px) {
     .contain-form h1 {
       font-size: 2rem !important;
     }
     .contain-form h2 {
       font-size: 1.5rem !important;
+    }
+    .contact-description{
+      text-align: justify;
     }
   }
   

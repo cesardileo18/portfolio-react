@@ -12,6 +12,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCog, faGraduationCap, faPuzzlePiece, faUserGraduate } from '@fortawesome/free-solid-svg-icons';
 import CertificatesCard from '../Components/CertificatesCard';
 import ScrollButton from '../Components/ScrollButton';
+import ReactGA from 'react-ga';
+
 const Skills = () => {
     const [showSpinner, setShowSpinner] = useState(false);
     useEffect(() => {
@@ -19,6 +21,12 @@ const Skills = () => {
         setTimeout(() => {
             setShowSpinner(false)
         }, 1600);
+        const idAnalytic = import.meta.env.VITE_GA_ID
+
+        // Inicializar ReactGA con ID de seguimiento
+        ReactGA.initialize(idAnalytic);
+        // Enviar una página vista inicial al cargar la aplicación
+        ReactGA.pageview(window.location.pathname + window.location.search);
     }, [])
     const renderCertificateSections = () => {
         const sections = [];

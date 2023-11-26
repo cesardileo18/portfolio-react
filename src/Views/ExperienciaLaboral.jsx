@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Spinner from '../Components/Spinner';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import ScrollButton from '../Components/ScrollButton';
+import ReactGA from 'react-ga';
 
 const ExperienciaLaboral = () => {
   const [showSpinner, setShowSpinner] = useState(false);
@@ -15,6 +16,12 @@ const ExperienciaLaboral = () => {
     setTimeout(() => {
       setShowSpinner(false);
     }, 800);
+    const idAnalytic = import.meta.env.VITE_GA_ID
+
+    // Inicializar ReactGA con ID de seguimiento
+    ReactGA.initialize(idAnalytic);
+    // Enviar una página vista inicial al cargar la aplicación
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
   return (

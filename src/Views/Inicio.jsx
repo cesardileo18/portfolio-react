@@ -3,6 +3,7 @@ import ParticlesBackground from "../Components/ParticlesBackground";
 import { useState, useEffect } from 'react';
 import Spinner from '../Components/Spinner';
 import ScrollButton from '../Components/ScrollButton';
+import ReactGA from 'react-ga';
 
 const Inicio = () => {
     const [showSpinner, setShowSpinner] = useState(false);
@@ -12,6 +13,11 @@ const Inicio = () => {
         setTimeout(() => {
             setShowSpinner(false);
         }, 1500);
+        const idAnalytic = import.meta.env.VITE_GA_ID
+        // Inicializar ReactGA con ID de seguimiento
+        ReactGA.initialize(idAnalytic);
+        // Enviar una página vista inicial al cargar la aplicación
+        ReactGA.pageview(window.location.pathname + window.location.search);
     }, []);
 
     return (
