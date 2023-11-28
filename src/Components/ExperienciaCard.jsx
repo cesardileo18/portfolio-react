@@ -7,8 +7,8 @@ const ExperienciaCard = ({ trabajo }) => {
 
   const truncateDescription = (trabajo) => {
     const words = trabajo.split(' ');
-    const truncatedText = words.slice(0, 62).join(' ');
-    if (words.length > 62) {
+    const truncatedText = words.slice(0, 50).join(' ');
+    if (words.length > 50) {
       return `${truncatedText}...`;
     }
     return truncatedText;
