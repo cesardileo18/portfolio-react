@@ -39,12 +39,15 @@
 }
 
 /* Media queries para pantallas más pequeñas (max-width: 795px) */
-@media screen and (max-width: 795px) {
+@media screen and (max-width: 1048px) {
     .experience-card-logo-container h3 {
         font-size: 1.3rem !important;
         margin-top: 10px;
         margin-bottom: 10px;
     }
+}
+@media screen and (max-width: 795px) {
+
     .experience__laboral__h2 {
         font-size: 1.5rem !important;
     }

@@ -87,7 +87,7 @@ const Contacto = () => {
               </a>
             </div>
             <div className='contain__iconContact'>
-              <a href='https://www.linkedin.com/in/cesar-orlando-acacio-di-leonardo-12b01a1b5' target='_blank' rel='noopener noreferrer'>
+              <a href='https://www.linkedin.com/in/cesar-acacio-di-leonardo' target='_blank' rel='noopener noreferrer'>
                 <button className='btn__Contact'>
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </button>

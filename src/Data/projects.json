@@ -8,6 +8,14 @@
         "img":"/img/projects/epikusCakeJavasCript.png"
     },
     {
+        "name": "Lista de Tareas",
+        "projetType":"FrondEnd",
+        "description":"Aplicación simple de lista de tareas con React. Organiza tu día fácilmente: Agrega, edita y elimina tareas. Datos almacenados localmente en localStorage.",
+        "demo":"https://cesardileo18.github.io/lista_tareas/#/",
+        "repository":"https://github.com/cesardileo18/app_lista_gastos",
+        "img":"/img/projects/listaTareas.PNG"
+    },
+    {
         "name": "Juego Dinosaurio",
         "projetType":"FrondEnd",
         "description":"Desarrollado con JavaScript, desafía tus habilidades mientras controlas a un dinosaurio que corre sin parar. Salta para evitar obstáculos y acumula puntos en un entorno dinámico. Características clave incluyen controles simples con clic o barra espaciadora para saltar, escenarios cambiantes que te permiten experimentar diferentes momentos del día, obstáculos desafiantes como cactus, y un sistema de puntaje para que puedas superar tus récords.Desplegado en el servidor de GitHub.",
