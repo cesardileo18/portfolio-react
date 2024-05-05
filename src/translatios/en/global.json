@@ -1,0 +1,172 @@
+{
+    "home": {
+        "title": "Hello! I'm",
+        "name": "Cesar.",
+        "subTitle": "Web Developer"
+    },
+    "aboutMe": {
+        "descriptionUno": "I have over two and a half years of experience as a full-stack web developer.",
+        "descriptionDos": "I utilize both front-end and back-end skills, including HTML, CSS, TypeScript, Sass, JavaScript, jQuery, Node.js, .NET Core, C#, MongoDB, MySQL, Docker, React.js, and Git. Among other technologies. Proficient in design tools such as Figma and Adobe Illustrator.",
+        "descriptionTres": "My commitment to continuous learning and obtaining certifications allows me to stay up-to-date with the latest trends and practices in web development.",
+        "descriptionCuatro": "I am always seeking opportunities to learn and improve professionally in this field that I am so passionate about.",
+        "title": "About Me",
+        "subTitle": "Skills"
+    },
+    "workExperiences": {
+        "title": "Work Experience",
+        "arrayExperiences": [
+            {
+                "position": "Full Stack Web Developer",
+                "company": "DataIQ.",
+                "period": "| July 2021 - Present",
+                "description": "Development of projects and extensions for Qlik Sense using React Js, Javascript, and JQuery. Creation of user interfaces and extensions for Qlik Sense throughout their lifecycle. Design and layout with HTML, Leonardo-UI, Tailwind, Bootstrap, and CSS implementing Sass. Backend implementation using QlikSense API, Node Js, and .Net for RESTful API. Working with databases like MongoDb and MySql. Testing on test servers before deployment to production servers. Occasional use of design tools like Figma, Illustrator, and Adobe XD.",
+                "logo": "img/logos/logo.png",
+                "url": "https://dataiq.com.ar/"
+            },
+            {
+                "position": "Soporte de TI",
+                "company": "Pizza Mia",
+                "period": "| Ene 2012 - Feb 2013.",
+                "description": "Incident resolution in communication systems, including Skype, Cisco, and landline telephony. Network access maintenance, server, router, and switch management. Configuration of Office365 tools and Windows operating systems. Repair of hardware components and peripherals.",
+                "logo": "img/logos/logopizzamia.png",
+                "url": "https://www.instagram.com/pizzamia_ve/?hl=es"
+            }
+        ]
+    },
+    "education": {
+        "title": "Education",
+        "educations": [
+            {
+                "name": "Full Stack Development Career",
+                "image": "img/Carrera/certificado-carreraFullStack.png",
+                "date": "September. 2022 | September. 2023"
+            },
+            {
+                "name": "Electronic Engineering | Not Finished",
+                "image": "img/Carrera/santiagoMarino.jpg",
+                "date": ""
+            }
+        ]
+    },
+    "certificates": {
+        "title": "Certificates",
+        "certificate": [
+            {
+                "name": "BackEnd Programming",
+                "image": "img/Certificates/NodeJs.png",
+                "date": "September. 2023"
+            },
+            {
+                "name": "English for Development Elementary Level",
+                "image": "img/Certificates/InglesElementary.png",
+                "date": "May. 2023"
+            },
+            {
+                "name": "React Js",
+                "image": "img/Certificates/ReactJsCoder.png",
+                "date": "April. 2023"
+            },
+            {
+                "name": "JavaScript",
+                "image": "img/Certificates/Javascript.png",
+                "date": "February. 2023"
+            },
+            {
+                "name": "Web Development",
+                "image": "img/Certificates/DesarrolloWeb.png",
+                "date": "November. 2022"
+            },
+            {
+                "name": ".Net Core Web Programming",
+                "image": "img/Certificates/programacion web .net EducacionIt.PNG",
+                "date": "September. 2022"
+            }
+        ]
+    },
+    "project": {
+        "title": "Projects",
+        "projects": [
+            {
+                "name": "E-Commerce | Epikus Cake",
+                "projetType": "FrondEnd",
+                "description": "Bakery and pastry E-Commerce, developed with HTML, JavaScript, and Sass for design, using the Bootstrap framework. It offers an attractive visual experience and a user-friendly interface. Fully responsive and compatible with any device. Implements Google Analytics to improve site analysis and optimize SEO strategy. The code is structured semantically, enhancing search engine positioning. Deployed on GitHub server.",
+                "demo": "https://cesardileo18.github.io/EpikusCake/",
+                "repository": "https://github.com/cesardileo18/EpikusCake",
+                "img": "img/projects/epikusCakeJavasCript.png"
+            },
+            {
+                "name": "Task List",
+                "projetType": "FrondEnd",
+                "description": "Simple to-do list application with React. Easily organize your day: Add, edit, and delete tasks. Data stored locally in localStorage.",
+                "demo": "https://cesardileo18.github.io/lista_tareas/#/",
+                "repository": "https://github.com/cesardileo18/app_lista_gastos",
+                "img": "img/projects/listaTareas.PNG"
+            },
+            {
+                "name": "Dinosaur Game",
+                "projetType": "FrondEnd",
+                "description": "Developed with JavaScript, challenge your skills while controlling a dinosaur that runs endlessly. Jump to avoid obstacles and accumulate points in a dynamic environment. Key features include simple controls with click or space bar to jump, changing scenarios allowing you to experience different times of the day, challenging obstacles like cacti, and a scoring system so you can beat your records. Deployed on GitHub server.",
+                "demo": "https://cesardileo18.github.io/juegoDinosaurio/",
+                "repository": "https://github.com/cesardileo18/juegoDinosaurio",
+                "img": "img/projects/juego.png"
+            },
+            {
+                "name": "E-Commerce",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "Bakery and pastry E-Commerce developed with Node.js (BackEnd) and Handlebars (FrontEnd). Although lacking a payment gateway, it incorporates key functionalities such as product and user management with webSocket for automatic updates. User registration uses Passport, implementing bcrypt hash in MongoDB Atlas. Includes logic for password forwarding and uses environment variables for added security. Currently, the project is deployed on Render servers and is adapted for deployment with Docker, following a folder methodology: models, services, controller, routes, app.js.",
+                "demo": "https://e-commerce-epikus-cake.onrender.com",
+                "repository": "https://github.com/cesardileo18/EpikusCakeFinalProject",
+                "img": "img/projects/epikusNode.png"
+            },
+            {
+                "name": "User Manager",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "This project, developed with JavaScript, allows performing high, low, and modification operations of users. The application loads completely dynamically, using local storage (localStorage).",
+                "demo": "https://cesardileo18.github.io/abmJavascript/",
+                "repository": "https://github.com/cesardileo18/abmJavascript",
+                "img": "img/projects/abmJs.png"
+            },
+            {
+                "name": "Portfolio",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "Project carried out with React.js using Vite to set up the application entry point. The application is fully responsive and uses CSS and Bootstrap for positioning and styling elements. JSON files are used to load information and photos on some screens. As for the backend for sending emails, Node.js is used. In the component structure, we separate the view from the logic, and Google is used to deploy the application.",
+                "demo": "https://portfolio-cesar.web.app/",
+                "repository": "https://github.com/cesardileo18/portfolio-react",
+                "img": "img/projects/portfolio.png"
+            },
+            {
+                "name": "FinanzApp",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "Easily record your daily expenses, organize your transactions, and get clear visual statistics to take full control of your finances.",
+                "demo": "https://app-lista-gastos-abc37.web.app/#/",
+                "repository": "https://github.com/cesardileo18/app_lista_gastos",
+                "img": "img/projects/appGastos.PNG"
+            },
+            {
+                "name": "Email Delivery",
+                "projetType": "BackEnd",
+                "description": "The Email Delivery API in Node.js offers a robust and efficient solution for managing email deliveries simply and seamlessly integrated into your application. Developed using Node.js, this API provides a reliable platform for quickly and securely sending email messages.",
+                "demo": "https://portfolio-cesar.web.app/#/contact",
+                "repository": "https://github.com/cesardileo18/Backend-Portfolio",
+                "img": "img/projects/email.PNG"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact",
+        "subTitle": "Send Email",
+        "description": "Thank you for visiting my page! If you wish to contact me, you can find me on LinkedIn or do so through the email form. You can also explore my projects and work methodology on my GitHub repository.",
+        "correo": "Email:",
+        "asunto": "Subject:",
+        "mensaje": "Message:",
+        "btn": "Send Email"
+    },
+    "footer": {
+        "home": "Home",
+        "aboutMe": "Biography",
+        "workExperience": "Work",
+        "education": "Education",
+        "projects": "Projects",
+        "contact": "Contact"
+    }
+}

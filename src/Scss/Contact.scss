@@ -1,0 +1,141 @@
+.img--contact {
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    opacity: 0.4;
+}
+
+h1 {
+    color: #FF8C00 !important;
+}
+
+p {
+    color: #FFFF !important;
+}
+
+.btn__Github {
+    border: none;
+}
+
+.btn__icons {
+    border: none;
+    background: none;
+}
+
+.iconLinkedinIn {
+    color: #FFFF;
+    font-size: 25px;
+}
+
+.iconGithub {
+    color: #FFFF;
+    font-size: 25px;
+
+}
+
+.containerIconLinkedinIn {
+    width: 40px;
+    height: 40px;
+    background-color: #0a66c2;
+    border-radius: 100%;
+}
+
+.containerIconGithub {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgba(50, 50, 50, 0.9);
+}
+
+.contenedor--contact {
+    background-color: #323232;
+    width: 100%;
+    border-radius: 10px;
+}
+
+form.form-control {
+    width: 98%;
+    box-shadow: 2px 2px 6px rgba(200, 200, 199, 0.5);
+    background-color: rgb(147 147 147 / 21%);
+}
+
+.form-label {
+    color: #FF8C00 !important;
+}
+
+input.form-control {
+    background-color: rgba(50, 50, 50, 0.6) !important;
+    color: #FFFF;
+
+    &:focus {
+        background-color: rgba(50, 50, 50, 0.5) !important;
+        color: #FFFF;
+    }
+
+    &:focus-within {
+        background-color: rgba(50, 50, 50, 0.5) !important;
+        color: #FFFF;
+    }
+}
+
+textarea.form-control {
+    background-color: rgba(50, 50, 50, 0.6) !important;
+    color: #FFFF;
+
+    &:focus {
+        background-color: rgba(50, 50, 50, 0.5) !important;
+        color: #FFFF;
+    }
+}
+
+.form_submit {
+    background-color: #323232 !important;
+}
+
+.relleno--contacto {
+    opacity: 0;
+}
+
+.spinner {
+    height: 21vh;
+}
+
+/* Alertas */
+.alert {
+    position: fixed !important;
+    top: 80px !important;
+    right: 20px !important;
+    background-color: #4caf50 !important;
+    color: white;
+    padding: 15px !important;
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    z-index: 1000;
+}
+
+.error-alert {
+    background-color: rgb(255 0 0 / 24%) !important;
+    color: white !important;
+    position: fixed !important;
+    top: 80px !important;
+    right: 20px !important;
+    padding: 15px !important;
+    border-radius: 5px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    z-index: 1000;
+}
+
+.close-button {
+    background-color: transparent !important;
+    border: none !important;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        color: #08e70f !important;
+    }
+}

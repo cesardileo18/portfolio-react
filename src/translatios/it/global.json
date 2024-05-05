@@ -1,0 +1,172 @@
+{
+    "home": {
+        "title": "Ciao! Sono",
+        "name": "Cesar.",
+        "subTitle": "Sviluppatore Web"
+    },
+    "aboutMe": {
+        "descriptionUno": "Ho oltre due anni e mezzo di esperienza come sviluppatore web full-stack.",
+        "descriptionDos": "Utilizzo sia competenze di front-end che di back-end, che includono HTML, CSS, TyScript, Sass, JavaScript, jQuery, Node.js, .NET Core, C#, MongoDB, MySQL, Docker, React.js e Git. Tra le altre tecnologie. Conoscenze in strumenti di design come Figma e Adobe Illustrator.",
+        "descriptionTres": "Il mio impegno per la formazione continua e il conseguimento di certificazioni mi consente di rimanere aggiornato sulle ultime tendenze e pratiche nello sviluppo web.",
+        "descriptionCuatro": "Sono sempre alla ricerca di opportunità per imparare e migliorare professionalmente in questo campo che mi appassiona così tanto.",
+        "title": "Su Di Me",
+        "subTitle": "Competenze"
+    },
+    "workExperiences": {
+        "title": "Esperienza Lavorativa",
+        "arrayExperiences": [
+            {
+                "position": "Sviluppatore Web Full Stack",
+                "company": "DataIQ.",
+                "period": "| Luglio 2021 - Presente",
+                "description": "Sviluppo di progetti ed estensioni per Qlik Sense utilizzando React Js, Javascript e JQuery. Creazione di interfacce utente ed estensioni per Qlik Sense durante tutto il loro ciclo di vita. Progettazione e layout con HTML, Leonardo-UI, Tailwind, Bootstrap e CSS implementando Sass. Implementazione del Backend utilizzando QlikSense API, Node Js e .Net per API RESTful. Lavoro con database come MongoDb e MySql. Test su server di prova prima del rilascio sui server di produzione. Uso occasionale di strumenti di design come Figma, Illustrator e Adobe XD.",
+                "logo": "img/logos/logo.png",
+                "url": "https://dataiq.com.ar/"
+            },
+            {
+                "position": "Supporto IT",
+                "company": "Pizza Mia",
+                "period": "| Gen 2012 - Feb 2013.",
+                "description": "Risoluzione di problemi nei sistemi di comunicazione, inclusi Skype, Cisco e telefonia fissa. Manutenzione degli accessi alla rete, gestione di server, router e switch. Configurazione di strumenti Office365 e sistemi operativi Windows. Riparazione di componenti hardware e periferiche.",
+                "logo": "img/logos/logopizzamia.png",
+                "url": "https://www.instagram.com/pizzamia_ve/?hl=es"
+            }
+        ]
+    },
+    "education": {
+        "title": "Educazione",
+        "educations": [
+            {
+                "name": "Carriera di Sviluppo Full Stack",
+                "image": "img/Carrera/certificado-carreraFullStack.png",
+                "date": "Settembre. 2022 | Settembre. 2023"
+            },
+            {
+                "name": "Ingegneria Elettronica | Non completato",
+                "image": "img/Carrera/santiagoMarino.jpg",
+                "date": ""
+            }
+        ]
+    },
+    "certificates": {
+        "title": "Certificati",
+        "certificate": [
+            {
+                "name": "Programmazione BackEnd",
+                "image": "img/Certificates/NodeJs.png",
+                "date": "Settembre. 2023"
+            },
+            {
+                "name": "Inglese per lo sviluppo livello elementare",
+                "image": "img/Certificates/InglesElementary.png",
+                "date": "Maggio. 2023"
+            },
+            {
+                "name": "React Js",
+                "image": "img/Certificates/ReactJsCoder.png",
+                "date": "Aprile. 2023"
+            },
+            {
+                "name": "JavaScript",
+                "image": "img/Certificates/Javascript.png",
+                "date": "Febbraio. 2023"
+            },
+            {
+                "name": "Sviluppo Web",
+                "image": "img/Certificates/DesarrolloWeb.png",
+                "date": "Novembre. 2022"
+            },
+            {
+                "name": ".Net Core Programmazione Web",
+                "image": "img/Certificates/programacion web .net EducacionIt.PNG",
+                "date": "Settembre. 2022"
+            }
+        ]
+    },
+    "project": {
+        "title": "Progetti",
+        "projects": [
+            {
+                "name": "E-Commerce | Epikus Cake",
+                "projetType": "FrondEnd",
+                "description": "E-Commerce di pasticceria e dolci, sviluppato con HTML, JavaScript e Sass per il design, utilizzando il framework Bootstrap. Offre un'esperienza visiva accattivante e un'interfaccia utente amichevole. Completamente responsivo e compatibile con qualsiasi dispositivo. Implementa Google Analytics per migliorare l'analisi del sito e ottimizzare la strategia SEO. Il codice è strutturato in modo semanticamente corretto, migliorando il posizionamento sui motori di ricerca. Deployato sul server GitHub.",
+                "demo": "https://cesardileo18.github.io/EpikusCake/",
+                "repository": "https://github.com/cesardileo18/EpikusCake",
+                "img": "img/projects/epikusCakeJavasCript.png"
+            },
+            {
+                "name": "Lista delle Attività",
+                "projetType": "FrondEnd",
+                "description": "Applicazione semplice di lista delle attività con React. Organizza facilmente la tua giornata: Aggiungi, modifica ed elimina attività. Dati memorizzati localmente in localStorage.",
+                "demo": "https://cesardileo18.github.io/lista_tareas/#/",
+                "repository": "https://github.com/cesardileo18/app_lista_gastos",
+                "img": "img/projects/listaTareas.PNG"
+            },
+            {
+                "name": "Gioco del Dinosauro",
+                "projetType": "FrondEnd",
+                "description": "Sviluppato con JavaScript, metti alla prova le tue abilità mentre controlli un dinosauro che corre senza sosta. Salta per evitare ostacoli e accumula punti in un ambiente dinamico. Le caratteristiche principali includono comandi semplici con clic o barra spaziatrice per saltare, scenari che cambiano permettendoti di sperimentare diversi momenti della giornata, ostacoli impegnativi come cactus e un sistema di punteggio per battere i tuoi record. Deployato sul server GitHub.",
+                "demo": "https://cesardileo18.github.io/juegoDinosaurio/",
+                "repository": "https://github.com/cesardileo18/juegoDinosaurio",
+                "img": "img/projects/juego.png"
+            },
+            {
+                "name": "E-Commerce",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "E-Commerce di pasticceria e dolci sviluppato con Node.js (BackEnd) e Handlebars (FrontEnd). Anche se manca un gateway di pagamento, incorpora funzionalità chiave come la gestione di prodotti e utenti con webSocket per gli aggiornamenti automatici. La registrazione degli utenti utilizza Passport, implementando l'hash con bcrypt in MongoDB Atlas. Include logica per l'inoltro delle password e utilizza variabili d'ambiente per una maggiore sicurezza. Attualmente, il progetto è deployato su server Render ed è adattato per il deploy con Docker, seguendo una metodologia a cartelle: models, services, controller, routes, app.js.",
+                "demo": "https://e-commerce-epikus-cake.onrender.com",
+                "repository": "https://github.com/cesardileo18/EpikusCakeFinalProject",
+                "img": "img/projects/epikusNode.png"
+            },
+            {
+                "name": "Gestore degli Utenti",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "Questo progetto, sviluppato con JavaScript, consente di eseguire operazioni di creazione, eliminazione e modifica degli utenti. L'applicazione viene caricata completamente in modo dinamico, utilizzando la memorizzazione locale (localStorage).",
+                "demo": "https://cesardileo18.github.io/abmJavascript/",
+                "repository": "https://github.com/cesardileo18/abmJavascript",
+                "img": "img/projects/abmJs.png"
+            },
+            {
+                "name": "Portfolio",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "Progetto realizzato con React.js utilizzando Vite per configurare il punto di ingresso dell'applicazione. L'applicazione è completamente responsiva e utilizza CSS e Bootstrap per il posizionamento e lo stile degli elementi. Vengono utilizzati file JSON per caricare informazioni e foto su alcune schermate. Per quanto riguarda il backend per l'invio di email, viene utilizzato Node.js. Nella struttura dei componenti, separiamo la vista dalla logica e Google viene utilizzato per il processo di deploy dell'applicazione.",
+                "demo": "https://portfolio-cesar.web.app/",
+                "repository": "https://github.com/cesardileo18/portfolio-react",
+                "img": "img/projects/portfolio.png"
+            },
+            {
+                "name": "FinanzApp",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "Registra facilmente le tue spese giornaliere, organizza le tue transazioni e ottieni chiare statistiche visive per prendere il pieno controllo delle tue finanze.",
+                "demo": "https://app-lista-gastos-abc37.web.app/#/",
+                "repository": "https://github.com/cesardileo18/app_lista_gastos",
+                "img": "img/projects/appGastos.PNG"
+            },
+            {
+                "name": "Consegna Email",
+                "projetType": "BackEnd",
+                "description": "L'API di Consegna Email in Node.js offre una soluzione robusta ed efficiente per la gestione delle consegne di email in modo semplice e integrato nella tua applicazione. Sviluppato utilizzando Node.js, questa API fornisce una piattaforma affidabile per l'invio rapido e sicuro di messaggi di posta elettronica.",
+                "demo": "https://portfolio-cesar.web.app/#/contact",
+                "repository": "https://github.com/cesardileo18/Backend-Portfolio",
+                "img": "img/projects/email.PNG"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contatto",
+        "subTitle": "Invia Email",
+        "description": "Grazie per aver visitato la mia pagina! Se desideri contattarmi, puoi trovarmi su LinkedIn o farlo tramite il modulo di posta elettronica. Puoi anche esplorare i miei progetti e la mia metodologia di lavoro nel mio repository GitHub.",
+        "correo": "Email:",
+        "asunto": "Oggetto:",
+        "mensaje": "Messaggio:",
+        "btn": "Invia Email"
+    },
+    "footer": {
+        "home": "Inizio",
+        "aboutMe": "Biografia",
+        "workExperience": "Esperienza",
+        "education": "Educazione",
+        "projects": "Progetti",
+        "contact": "Contatto"
+    }
+}

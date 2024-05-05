@@ -1,58 +1,56 @@
 [
     {
       "nombre":"ReactJs",
-      "logo": "/img/skills/reactJs.svg"
+      "logo": "img/Habilidades/reactJs.svg"
     },
     {
       "nombre":"Docker",
-      "logo": "/img/skills/docker.svg"
+      "logo": "img/Habilidades/docker.svg"
     },
     {
-      "nombre":".NetCore",
-      "logo": "/img/skills/net-core.svg"
+      "logo": "img/Habilidades/FotoNetCore.png"
     },
     {
       "nombre":"NodeJs",
-      "logo": "/img/skills/nodeJs.svg"
+      "logo": "img/Habilidades/nodeJs.svg"
     },
     {
       "nombre":"Javascript",
-      "logo": "/img/skills/javascript.svg"
+      "logo": "img/Habilidades/Javascript.svg"
     },
     {
       "nombre":"MongoDb",
-      "logo": "/img/skills/mongodb.svg"
+      "logo": "img/Habilidades/MongoDBFoto.png"
     },
     {
-      "nombre":"MySql",
-      "logo": "/img/skills/mysql.svg"
+      "logo": "img/Habilidades/mysql.svg"
     },
     {
       "nombre":"QlikSense",
-      "logo": "/img/skills/qlikview.svg"
+      "logo": "img/Habilidades/FotoQS.svg"
     },
     {
       "nombre":"Bootstrap",
-      "logo": "/img/skills/bootstrap.svg"
+      "logo": "img/Habilidades/Bootstrap.svg"
     },
     {
       "nombre":"Figma",
-      "logo": "/img/skills/figma.svg"
+      "logo": "img/Habilidades/FigmaFoto.svg"
     },
     {
       "nombre":"Git",
-      "logo": "/img/skills/git.svg"
+      "logo": "img/Habilidades/git.svg"
     },
     {
       "nombre":"Html",
-      "logo": "/img/skills/html.svg"
+      "logo": "img/Habilidades/Fotohtml.svg"
     },
     {
       "nombre":"Sass",
-      "logo": "/img/skills/sass.svg"
+      "logo": "img/Habilidades/Fotosass.png"
     },
     {
-      "nombre":"Adobe Illustrator",
-      "logo": "/img/skills/Adobe_Illustrator.png"
+      "nombre":"Adobe Ilustrator",
+      "logo": "img/Habilidades/Adobe_Illustrator 1.png"
     }
   ]

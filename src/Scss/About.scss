@@ -1,0 +1,42 @@
+#Biografia {
+    .sobreMi--tituloPrincipal {
+        color: #FF8C00;
+    }
+    .sobreMi--contenedor {
+        .row {
+            article {
+                color: #FFFFFF;
+            }
+
+            .sobreMi--habilidades {
+                .sobreMi--tituloHabilidades {
+                    color: #FF8C00;
+                }
+
+                .sobreMi--contenedor--habilidades {
+                    width: 100%;
+                    max-height: 368px !important;
+                    overflow-y: auto;
+                    background-color: rgba(50, 50, 50, 0.6);
+                    flex-wrap: wrap;
+
+                    .sobreMi--cards--habilidades {
+                        max-width: 122px;
+                        width: 100%;
+                        height: 122px;
+                        border-radius: 15px;
+                        background-color: #323232;
+                        margin: 10px;
+                        padding: 5px;
+                    }
+
+                    .sobreMi--cards--habilidades--name {
+                        text-align: center;
+                        color: #FF8C00;
+                        margin-bottom: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+}
