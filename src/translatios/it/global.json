@@ -143,6 +143,29 @@
                 "img": "img/projects/appGastos.PNG"
             },
             {
+                "name": "Tracciatore della Metropolitana",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "",
+                "demo": "https://subwaytraker.web.app/",
+                "repository": "https://github.com/cesardileo18/Subway_Traker",
+                "img": "img/projects/subway.PNG"
+            },
+            {
+                "name": "Tracciatore di Biciclette",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "",
+                "demo": "https://cesardileo18.github.io/BicycleTraker/",
+                "repository": "https://github.com/cesardileo18/BicycleTraker",
+                "img": "img/projects/bycicleTraker.PNG"
+            },
+            {
+                "name": "Progetto Banca Python",
+                "projetType": "FrondEnd",
+                "description": "",
+                "repository": "https://github.com/cesardileo18/Bank-Project-Python",
+                "img": "img/projects/python.PNG"
+            },
+            {
                 "name": "Consegna Email",
                 "projetType": "BackEnd",
                 "description": "L'API di Consegna Email in Node.js offre una soluzione robusta ed efficiente per la gestione delle consegne di email in modo semplice e integrato nella tua applicazione. Sviluppato utilizzando Node.js, questa API fornisce una piattaforma affidabile per l'invio rapido e sicuro di messaggi di posta elettronica.",

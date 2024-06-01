@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp, faArrowDown,faArrowAltCircleUp,faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowAltCircleUp,faArrowAltCircleDown } from '@fortawesome/free-solid-svg-icons';
 import "../Scss/ScrollButton.scss"
 const ScrollButton = () => {
   const [showButton, setShowButton] = useState(false);

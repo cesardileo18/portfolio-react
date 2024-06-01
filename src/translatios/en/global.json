@@ -143,6 +143,29 @@
                 "img": "img/projects/appGastos.PNG"
             },
             {
+                "name": "Subway Traker",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "",
+                "demo": "https://subwaytraker.web.app/",
+                "repository": "https://github.com/cesardileo18/Subway_Traker",
+                "img": "img/projects/subway.PNG"
+            },
+            {
+                "name": "Bicycle Traker",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "",
+                "demo": "https://cesardileo18.github.io/BicycleTraker/",
+                "repository": "https://github.com/cesardileo18/BicycleTraker",
+                "img": "img/projects/bycicleTraker.PNG"
+            },
+            {
+                "name": "Bank Project Python",
+                "projetType": "FrondEnd",
+                "description": "",
+                "repository": "https://github.com/cesardileo18/Bank-Project-Python",
+                "img": "img/projects/python.PNG"
+            },
+            {
                 "name": "Email Delivery",
                 "projetType": "BackEnd",
                 "description": "The Email Delivery API in Node.js offers a robust and efficient solution for managing email deliveries simply and seamlessly integrated into your application. Developed using Node.js, this API provides a reliable platform for quickly and securely sending email messages.",

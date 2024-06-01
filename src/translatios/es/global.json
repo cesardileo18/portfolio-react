@@ -143,6 +143,29 @@
                 "img": "img/projects/appGastos.PNG"
             },
             {
+                "name": "Rastreador del Metro",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "",
+                "demo": "https://subwaytraker.web.app/",
+                "repository": "https://github.com/cesardileo18/Subway_Traker",
+                "img": "img/projects/subway.PNG"
+            },
+            {
+                "name": "Rastreador de Bicicletas",
+                "projetType": "FrondEnd | BackEnd",
+                "description": "",
+                "demo": "https://cesardileo18.github.io/BicycleTraker/",
+                "repository": "https://github.com/cesardileo18/BicycleTraker",
+                "img": "img/projects/bycicleTraker.PNG"
+            },
+            {
+                "name": "Proyecto Bancario Python",
+                "projetType": "FrondEnd",
+                "description": "",
+                "repository": "https://github.com/cesardileo18/Bank-Project-Python",
+                "img": "img/projects/python.PNG"
+            },
+            {
                 "name": "Envío de correo",
                 "projetType": "BackEnd",
                 "description": "La API de Envío de Correos Electrónicos en Node.js ofrece una solución robusta y eficiente para la gestión de envíos de correos electrónicos de forma sencilla e integrada en tu aplicación. Desarrollada utilizando Node.js, esta API proporciona una plataforma confiable para enviar mensajes de correo electrónico de manera rápida y segura.",
