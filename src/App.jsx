@@ -12,6 +12,20 @@ import Spinner from './Components/Spinner'
 function App() {
   const [dataLoaded, setDataLoaded] = useState(false);
 
+  // useEffect separado para la llamada a la API
+  useEffect(() => {
+    const requestOptions = {
+      method: "GET",
+    };
+    fetch("https://backend-portfolio-fh5o.onrender.com/api/visit", requestOptions)
+      .then((res) => {
+        console.log(res)
+      })
+      .catch(error => {
+        console.error(error);
+      });
+  }, []);
+
   useEffect(() => {
     setDataLoaded(true);
     setTimeout(() => {

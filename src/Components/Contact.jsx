@@ -31,7 +31,7 @@ const Contact = () => {
             return; // Detener el flujo de ejecución del envío del formulario
         }
         try {
-            const response = await fetch('https://backend-portfolio-c30x.onrender.com/api/enviar-correo', {
+            const response = await fetch('https://backend-portfolio-fh5o.onrender.com/api/enviar-correo', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

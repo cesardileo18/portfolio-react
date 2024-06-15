@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "/api/**",
-        "function": "https://backend-portfolio-c30x.onrender.com"
+        "function": "https://backend-portfolio-fh5o.onrender.com"
       }
     ]
   }
